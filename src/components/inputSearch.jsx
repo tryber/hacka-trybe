@@ -8,7 +8,6 @@ class InputSearch extends React.Component {
     }
   }
   sendAPIAddress() {
-    console.log(`?s=${this.state.userAddress}`);
     return `?s=${this.state.userAddress}`;
   }
 
