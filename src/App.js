@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import { Provider } from './components/context/MapContext';
-import MapContainer from './components/Map';
+import MapInputs from './components/MapInputs';
 
 function App() {
   return (
     <div className="App">
       <Provider>
-        <MapContainer />
+        <MapInputs />
       </Provider>
     </div>
   );
