@@ -1,16 +1,18 @@
 import React from 'react';
-import Header from './PostImg';
+import Header from './Header';
 import PostImg from './PostImg';
 import PostText from './PostText.js';
 class Post extends React.Component {
     render() {
+        console.log(this.props)
+        const { header, text, image } = this.props.itemPost;
         return (
             <div>
-                <Header />
-                <PostImg />
-                <PostText />
+                <Header headers={header} />
+                <PostImg image={image} />
+                <PostText text={text} />
             </div>
-        )
+        );
     }
-} 
+}
 export default Post;

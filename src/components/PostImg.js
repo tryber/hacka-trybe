@@ -1,3 +1,7 @@
 import React from 'react';
-const PosImg = ({ img }) => ( <div><img src={img} alt={img} /></div> );
+class PosImg extends React.Component {
+    render() {
+        return(<img src={this.props.image} alt='img' />);
+    }
+}
 export default PosImg;
