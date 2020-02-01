@@ -1,36 +1,40 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './DCNewsletter.css';
+import rp from 'request-promise';
+import cheerio from 'cheerio';
 
-const rp = require('request-promise');
-const cherio = require('cheerio');
-const Table = require('cli-table');
+// const rp = require('request-promise');
+// const cherio = require('cheerio');
+// const Table = require('cli-table');
 
-let users = [];
-const options = {
-  url: 'https://prefeitura.pbh.gov.br/noticias/defesa-civil',
-  json: true,
-}
-
-rp(options)
-  .then((data) => {
-    let promises = [];
-    let usedData = [];
-    for (let user of data.directory_items) {
-      userData.push({})
+class DCNewsletter extends Component {
+  render() {
+    
+    const options = {
+      url: 'https://cors-anywhere.herokuapp.com/https://prefeitura.pbh.gov.br/noticias/defesa-civil',
+      // json: true,
+      resolveWithFullResponse: true,
+      transform: function (body) {
+        return cheerio.load(body);
+      },
     }
-  })
+    
+    rp(options)
+      .then(function(response) {
+        console.log(response.headers);
+        console.log(response.data);
+    });
 
-function DCNewsletter() {
-  return (
-    <div className="DCNewsletter">
-      <header className="DCNewsletter-header">
-        <p>
-          Insira aqui os componentes
-        </p>
-       
-      </header>
-    </div>
-  );
+    return (
+      <div className="DCNewsletter">
+        <header className="DCNewsletter-header">
+          <p>
+            Insira aqui os componentes
+          </p>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default DCNewsletter;
