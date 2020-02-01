@@ -16,7 +16,7 @@ Av. Prof. Clóvis Salgado - Bandeirantes (Pampulha), Belo Horizonte - MG @-19.86
 Regional Noroeste @-19.9138044,-43.9487202
 R. Tocantins, Belo Horizonte - MG @-19.8844367,-44.011309
 Av. Amintas Jacques de Morais, Belo Horizonte - MG @-19.9010238,-44.0205864
-Rua Beira Córrego - Ipanema, Belo Horizonte - MG @-19.9133897,-43.9981353
+R. Beira Córrego - Ipanema, Belo Horizonte - MG @-19.9133897,-43.9981353
 R. das Violas, Belo Horizonte - MG @-19.9208681,-44.0108971
 R. Maria José de Jesus - Camargos, Belo Horizonte - MG @-19.9368778,-44.0257721
 Vila Oeste, Belo Horizonte - MG @-19.9372867,-44.0046646
