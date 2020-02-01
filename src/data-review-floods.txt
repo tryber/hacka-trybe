@@ -22,7 +22,7 @@ R. Maria José de Jesus - Camargos, Belo Horizonte - MG @-19.9368778,-44.0257721
 Vila Oeste, Belo Horizonte - MG @-19.9372867,-44.0046646
 Av. Tereza Cristina - Prado, Belo Horizonte - MG @-19.9172481,-43.9673088
 Av. Palestina - Me. Gertrudes, Belo Horizonte - MG @-19.9510733,-44.0112358
-Rua Estrada do Cercadinho - Jardim America, Belo Horizonte - MG, 30421-565 @-19.9486129,-43.9764468
+R. Estrada do Cercadinho - Jardim America, Belo Horizonte - MG, 30421-565 @-19.9486129,-43.9764468
 Av. Gov. Benedicto Valadares - Vila Oeste, Belo Horizonte - MG, 31250-530 @-19.9379103,-44.0035727
 Av. Francisco Sá - Gutierrez, Belo Horizonte - MG @-19.93234,-43.9609978
 R. Erê - Prado, Belo Horizonte - MG @-19.9221869,-43.9610738
