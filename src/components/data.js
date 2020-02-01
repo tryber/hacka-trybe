@@ -56,7 +56,7 @@ const Postagens = [
     },
     {
         header: {
-            title: 'Quem tem direito a receber o Aluguel Social',
+            title: 'Aluguel Social',
             data: '01/02/2020',
             category: 'Juridico',
         },
