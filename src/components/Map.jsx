@@ -2,19 +2,20 @@ import React from 'react';
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 export class MapContainer extends React.Component {
-
-// constructor(props) {
-//     super(props);
-//     this.requestAPIFloods = this.requestAPIFloods.bind(this);
-// }
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+    };
+  }
   requestAPIFloods() {
-    console.log( fetch('https://hackatrybe.herokuapp.com/floods').then((data) =>
-      data.json()
-    ))
+    return  fetch('https://hackatrybe.herokuapp.com/floods').then((data) =>
+      data.json().then((response) => this.setState({ data: response })),
+    );
   }
 
   componentDidMount() {
-      this.requestAPIFloods()
+    this.requestAPIFloods();
   }
   render() {
     return (
@@ -27,14 +28,15 @@ export class MapContainer extends React.Component {
           google={this.props.google}
           zoom={14}
         >
-            {/* {this.requestAPIFloods().map((point) => {
-                return <Marker title={point.address} name='s' position={`{lat: ${point.latitude}, lng: ${point.longitude}}`}/>
-            })} */}
-          {/*
-          <Marker
-            title={'The marker`s title will appear as a tooltip.'}
-            name={'SOMA'}
-            position={{lat: -19.941210, lng: -43.931286}} /> */}
+            {this.state.data.map((point) => {
+                return (
+                  <Marker
+                    title={point.address}
+                    name="s"
+                    position={{lat: point.latitude, lng: point.longitude}}
+                  />
+                );
+              })}
           <InfoWindow onClose={this.onInfoWindowClose}>
             <div>
               <h1>top</h1>
