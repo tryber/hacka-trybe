@@ -57,7 +57,7 @@ Av. Tereza Cristina, Minas Gerais @-19.956655,-43.9938948
 Santana do Cafezal, Belo Horizonte - MG @-19.9349924,-43.9118012
 Olaria, Belo Horizonte - MG @-19.9908878,-44.0322387
 Estr. Córrego Jatobá, Manhuaçu - MG, 36900-000 @-20.277936,-42.1883205
-Corrego Bonsucesso Igreja Missionaria Filadelfia @-20.4603553,-42.1494357
+Córrego Bonsucesso Igreja Missionária Filadélfia @-20.4603553,-42.1494357
 Barreiro, Belo Horizonte - MG @-19.9776403,-44.0238162
 Av. Senador Levindo Coelho, Belo Horizonte - MG @-20.0036843,-44.0374571
 Av. do Canal, Belo Horizonte - MG @-19.9797786,-44.0335047
