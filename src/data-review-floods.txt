@@ -1,0 +1,64 @@
+Av. Vilarinho - Venda Nova, Belo Horizonte - MG @-19.8127816,-43.9608969
+Av. Liége, Belo Horizonte - MG @-19.8016468,-43.973621
+R. Camões, Belo Horizonte - MG @-19.8338676,-43.9887696
+R. Olávo Bilac - Santa Monica, Belo Horizonte - MG @-19.8207395,-43.9746379
+Av. Virgílio de Melo Franco, Belo Horizonte - MG @-19.8403494,-43.9837888
+Céu Azul, Belo Horizonte - MG @-19.8229707,-44.0087146
+Rua Dr. Álvaro Camargos, Belo Horizonte - MG @-19.825228,-43.962694
+Pampulha, Belo Horizonte - MG @-19.8528418,-43.9598869
+R. Ressaca - Santa Terezinha, Belo Horizonte - MG, 31365-440 @-19.8667552
+Córrego Olhos d'Água @-19.1503006,-45.4503245
+Braúnas, MG, 35169-000 @-19.0556944,-42.7232582
+Av. Sebastião de Brito, Belo Horizonte - MG, 31270-705 @-19.8616349,-43.9437965
+Av. Cristiano Machado, Belo Horizonte - MG @-19.8581744,-43.9366965
+Av. Heráclito Mourão de Miranda, Belo Horizonte - MG @-19.8767343,-44.0062657
+Av. Prof. Clóvis Salgado - Bandeirantes (Pampulha), Belo Horizonte - MG @-19.8646878,-44.0064391
+Regional Noroeste @-19.9138044,-43.9487202
+R. Tocantins, Belo Horizonte - MG @-19.8844367,-44.011309
+Av. Amintas Jacques de Morais, Belo Horizonte - MG @-19.9010238,-44.0205864
+Rua Beira Córrego - Ipanema, Belo Horizonte - MG @-19.9133897,-43.9981353
+R. das Violas, Belo Horizonte - MG @-19.9208681,-44.0108971
+R. Maria José de Jesus - Camargos, Belo Horizonte - MG @-19.9368778,-44.0257721
+Vila Oeste, Belo Horizonte - MG @-19.9372867,-44.0046646
+Av. Tereza Cristina - Prado, Belo Horizonte - MG @-19.9172481,-43.9673088
+Av. Palestina - Me. Gertrudes, Belo Horizonte - MG @-19.9510733,-44.0112358
+Rua Estrada do Cercadinho - Jardim America, Belo Horizonte - MG, 30421-565 @-19.9486129,-43.9764468
+Av. Gov. Benedicto Valadares - Vila Oeste, Belo Horizonte - MG, 31250-530 @-19.9379103,-44.0035727
+Av. Francisco Sá - Gutierrez, Belo Horizonte - MG @-19.93234,-43.9609978
+R. Erê - Prado, Belo Horizonte - MG @-19.9221869,-43.9610738
+R. Coruripe - Nova Granada, Belo Horizonte - MG @-19.9381815,-43.9729435
+R. Ituiutaba - Prado, Belo Horizonte - MG @-19.9196591,-43.961521
+Av. Silva Lobo - Calafate, Belo Horizonte - MG @-19.9278383,-43.973984
+Av. Barão Homem de Melo - Nova Granada, Belo Horizonte - MG @-19.941586,-43.9734027
+Fazenda Velha - Jardim Felicidade, Belo Horizonte - MG, 31742-406 @-19.8235721,-43.9322227
+Novo Aarão Reis, Belo Horizonte - MG @-19.8405148,-43.9126993
+Rua Antônio Ribeiro de Abreu - Ribeiro de Abreu, Belo Horizonte - MG @-19.833275,-43.9058083
+Av. Bernardo de Vasconcelos, Belo Horizonte - MG @-19.8832101,-43.9422011
+R. Santa Úrsula - Ouro Minas, Belo Horizonte - MG, 31870-360 @-19.8435129,-43.9088173
+Ribeiro de Abreu, Belo Horizonte - MG @-19.8290816,-43.9168255
+R. dos Limões - Maria Goretti, Belo Horizonte - MG @-19.8602837,-43.9080067
+Córrego Gordura @-20.0365899,-43.9286905
+R. Osmar Costa - Heliópolis, Belo Horizonte - MG @-19.843804,-43.9413348
+Av. Sanitária - Miramar (Barreiro), Belo Horizonte - MG, 30620-330 @-19.9943631,-44.0100091
+R. Maria Carmem Valadares, Belo Horizonte - MG @-19.9301211,-43.912824
+Córrego São Geraldo bh @-19.8963304,-43.9004491
+R. Pitangui - Concórdia, Belo Horizonte - MG @-19.9037878,-43.9432086
+Av. Silviano Brandão, Belo Horizonte - MG @-19.9115606,-43.9227387
+Av. Prudente de Morais, Belo Horizonte - MG @-19.9431712,-43.950752
+R. Joaquim Murtinho, Belo Horizonte - MG, 30110-051 @-19.9384576,-43.947784
+Praça Marília de Dirceu @-19.933773,-43.9477718
+rua Bárbara Heliodora @-21.7169791,-47.5635548
+R. Córrego da Mata, Belo Horizonte - MG @-19.9110257,-43.9220362
+R. Monte Alegre, Belo Horizonte - MG @-19.9335752,-43.9233981
+Rua Edgard Coelho - Serra, Belo Horizonte - MG, 30110-921 @-19.9353906,-43.9262842
+R. Mato Grosso, Belo Horizonte - MG @-19.923634,-43.9503366
+Rua dos Tamôios - Centro, Belo Horizonte - MG, 30120-050 @-19.9195453
+Av. Tereza Cristina, Minas Gerais @-19.956655,-43.9938948
+Santana do Cafezal, Belo Horizonte - MG @-19.9349924,-43.9118012
+Olaria, Belo Horizonte - MG @-19.9908878,-44.0322387
+Estr. Córrego Jatobá, Manhuaçu - MG, 36900-000 @-20.277936,-42.1883205
+Corrego Bonsucesso Igreja Missionaria Filadelfia @-20.4603553,-42.1494357
+Barreiro, Belo Horizonte - MG @-19.9776403,-44.0238162
+Av. Senador Levindo Coelho, Belo Horizonte - MG @-20.0036843,-44.0374571
+Av. do Canal, Belo Horizonte - MG @-19.9797786,-44.0335047
+Av. Olinto Meireles, Minas Gerais @-19.9826318,-44.0122607
