@@ -1,5 +1,6 @@
 import React from 'react';
 import MapContainer from './MapContainer';
+import { MapContext } from './context/MapContext';
 
 class MapInputs extends React.Component {
   constructor(props) {
@@ -10,18 +11,19 @@ class MapInputs extends React.Component {
     };
   }
 
-  requestAPIFloods(param) {
-      return fetch(`https://hackatrybe.herokuapp.com/${param}`).then((data) =>
+  requestAPI(param) {
+      const { endpoint } = this.context;
+      return fetch(`https://hackatrybe.herokuapp.com/${param}${endpoint}`).then((data) =>
         data.json().then((response) => this.setState({ data: response})),
       );
     }
 
   changeHandler(event) {
-      this.requestAPIFloods(event.target.value);
+      this.requestAPI(event.target.value);
   }
 
   componentDidMount() {
-      this.requestAPIFloods('donations');
+      this.requestAPI('donations');
   }
   generateInputs() {
     return (
@@ -55,7 +57,6 @@ class MapInputs extends React.Component {
   }
 
   render() {
-    //   console.log(this.state.filter)
     return (
       <div>
         {this.generateInputs()}
@@ -65,4 +66,5 @@ class MapInputs extends React.Component {
   }
 }
 
+MapInputs.contextType = MapContext;
 export default MapInputs;

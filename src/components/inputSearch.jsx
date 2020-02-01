@@ -1,14 +1,16 @@
 import React from 'react';
+import { MapContext } from './context/MapContext';
 
 class InputSearch extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       userAddress: '',
-    }
+    };
   }
   sendAPIAddress() {
-    return `?s=${this.state.userAddress}`;
+    const { setEndpoint } = this.context;
+    return setEndpoint(`?s=${this.state.userAddress}`);
   }
 
   render() {
@@ -24,4 +26,5 @@ class InputSearch extends React.Component {
   }
 }
 
+InputSearch.contextType = MapContext;
 export default InputSearch;
