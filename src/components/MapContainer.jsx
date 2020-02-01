@@ -2,40 +2,7 @@ import React from 'react';
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 export class MapContainer extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: [],
-    };
-  }
-
-  requestAPIFloods(param) {
-    if (param !== '') {
-      return fetch(`https://hackatrybe.herokuapp.com/${param}`).then((data) =>
-        data.json().then((response) => this.setState({ data: response })),
-      );
-    }
-    return [];
-  }
-
-  componentDidMount() {
-    this.requestAPIFloods(this.props.filter);
-  }
-
-  shouldComponentUpdate(prevProps) {
-    if(prevProps.filter !== this.props.filter) {
-      console.log('passou');
-      return true;
-    }
-    return false;
-  }
-
-  componentDidUpdate() {
-    console.log('passsssssou')
-    this.requestAPIFloods(this.props.filter);
-  }
   render() {
-    console.log(this.props)
     return (
       <div>
         <Map
@@ -46,7 +13,7 @@ export class MapContainer extends React.Component {
           google={this.props.google}
           zoom={14}
         >
-          {this.state.data.map((point) => {
+          {this.props.data.map((point) => {
             return (
               <Marker
                 key={point.address}
