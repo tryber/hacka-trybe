@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #EAEAEA;
+    margin-top: 0px;
+    width: 100vw;
+    height: 79px;
+}
+
+#logo {
+    width: 112px;
+    height: 60px;
+    margin-left: 11px;
+    background-color: #DEDEDE;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#buttons {
+    width: 112px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+#circle-icon {
+    background-color: #B2B1B1;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 209px;
+    margin-top: 79px;
+}
+
+#news {
+    width: 196px;
+    height: 152px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Enchente_do_Rio_Piracicaba_na_Prainha%2C_Coronel_Fabriciano_MG2.JPG/1200px-Enchente_do_Rio_Piracicaba_na_Prainha%2C_Coronel_Fabriciano_MG2.JPG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background: rgb(163, 121, 240);
+    background: linear-gradient(180deg, rgba(163, 121, 240, 0) 25%, rgba(252, 16, 85, 1) 100%);
+}
