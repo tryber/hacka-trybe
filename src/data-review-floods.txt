@@ -50,7 +50,7 @@ Praça Marília de Dirceu @-19.933773,-43.9477718
 rua Bárbara Heliodora @-21.7169791,-47.5635548
 R. Córrego da Mata, Belo Horizonte - MG @-19.9110257,-43.9220362
 R. Monte Alegre, Belo Horizonte - MG @-19.9335752,-43.9233981
-Rua Edgard Coelho - Serra, Belo Horizonte - MG, 30110-921 @-19.9353906,-43.9262842
+R. Edgard Coelho - Serra, Belo Horizonte - MG, 30110-921 @-19.9353906,-43.9262842
 R. Mato Grosso, Belo Horizonte - MG @-19.923634,-43.9503366
 Rua dos Tamôios - Centro, Belo Horizonte - MG, 30120-050 @-19.9195453,-43.9443788
 Av. Tereza Cristina, Minas Gerais @-19.956655,-43.9938948
