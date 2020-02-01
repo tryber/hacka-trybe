@@ -6,7 +6,7 @@ Av. Virgílio de Melo Franco, Belo Horizonte - MG @-19.8403494,-43.9837888
 Céu Azul, Belo Horizonte - MG @-19.8229707,-44.0087146
 Rua Dr. Álvaro Camargos, Belo Horizonte - MG @-19.825228,-43.962694
 Pampulha, Belo Horizonte - MG @-19.8528418,-43.9598869
-R. Ressaca - Santa Terezinha, Belo Horizonte - MG, 31365-440 @-19.8667552
+R. Ressaca - Santa Terezinha, Belo Horizonte - MG, 31365-440 @-19.8667552,-44.0101574
 Córrego Olhos d'Água @-19.1503006,-45.4503245
 Braúnas, MG, 35169-000 @-19.0556944,-42.7232582
 Av. Sebastião de Brito, Belo Horizonte - MG, 31270-705 @-19.8616349,-43.9437965
@@ -52,7 +52,7 @@ R. Córrego da Mata, Belo Horizonte - MG @-19.9110257,-43.9220362
 R. Monte Alegre, Belo Horizonte - MG @-19.9335752,-43.9233981
 Rua Edgard Coelho - Serra, Belo Horizonte - MG, 30110-921 @-19.9353906,-43.9262842
 R. Mato Grosso, Belo Horizonte - MG @-19.923634,-43.9503366
-Rua dos Tamôios - Centro, Belo Horizonte - MG, 30120-050 @-19.9195453
+Rua dos Tamôios - Centro, Belo Horizonte - MG, 30120-050 @-19.9195453,-43.9443788
 Av. Tereza Cristina, Minas Gerais @-19.956655,-43.9938948
 Santana do Cafezal, Belo Horizonte - MG @-19.9349924,-43.9118012
 Olaria, Belo Horizonte - MG @-19.9908878,-44.0322387
