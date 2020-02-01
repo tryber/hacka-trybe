@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import DefesaCivil from './components/defesaCivilTT'
+import DefesaCivil from './components/defesaCivilTT';
 
 function App() {
   return (
