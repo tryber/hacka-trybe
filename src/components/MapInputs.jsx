@@ -14,7 +14,6 @@ class MapInputs extends React.Component {
   }
 
   requestAPI(param, endpoint = '') {
-    //   console.log(param, endpoint)
     return fetch(
       `https://hackatrybe.herokuapp.com/${param}${endpoint}`,
     ).then((data) =>
@@ -42,14 +41,14 @@ class MapInputs extends React.Component {
   generateButtonOfSearch() {
     return (
       <div>
-          <input
-            type="text"
-            placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
-            onBlur={(e) => this.setState({ userAddress: e.target.value })}
-          />
-          <button type="button" onClick={() => this.sendAPIAddress()}>
-            Pesquisar
-          </button>
+        <input
+          type="text"
+          placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
+          onBlur={(e) => this.setState({ userAddress: e.target.value })}
+        />
+        <button type="button" onClick={() => this.sendAPIAddress()}>
+          Pesquisar
+        </button>
       </div>
     );
   }
@@ -85,7 +84,6 @@ class MapInputs extends React.Component {
   }
 
   render() {
-    console.log(this.state.data);
     return (
       <div>
         {this.generateInputs()}

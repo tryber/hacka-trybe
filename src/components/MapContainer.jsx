@@ -11,28 +11,28 @@ export class MapContainer extends React.Component {
       selectedPlace: {},
     };
   }
- 
+
   onMarkerClick = (props, marker, e) =>
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
-      showingInfoWindow: true
+      showingInfoWindow: true,
     });
- 
+
   onMapClicked = (props) => {
     if (this.state.showingInfoWindow) {
       this.setState({
         showingInfoWindow: false,
-        activeMarker: null
-      })
+        activeMarker: null,
+      });
     }
-  }
+  };
 
   geoLocation(context) {
-    if(context.length > 0) {
+    if (context.length > 0) {
       return context;
     }
-    return { latitude: '-19.932449', longitude: '-43.939003'}
+    return { latitude: '-19.932449', longitude: '-43.939003' };
   }
   render() {
     const geolocation = this.geoLocation(this.context.geolocation);
@@ -43,7 +43,12 @@ export class MapContainer extends React.Component {
             lat: geolocation.latitude,
             lng: geolocation.longitude,
           }}
-          style={{width: '50%', height: '50%', position: 'relative', margin: '10em'}}
+          style={{
+            width: '50%',
+            height: '50%',
+            position: 'relative',
+            margin: '10em',
+          }}
           google={this.props.google}
           zoom={14}
           onClick={this.onMapClicked}
@@ -60,12 +65,13 @@ export class MapContainer extends React.Component {
             );
           })}
           <InfoWindow
-          marker={this.state.activeMarker}
-          visible={this.state.showingInfoWindow}>
+            marker={this.state.activeMarker}
+            visible={this.state.showingInfoWindow}
+          >
             <div>
               <h1>{this.state.selectedPlace.name}</h1>
             </div>
-        </InfoWindow>
+          </InfoWindow>
         </Map>
       </div>
     );
