@@ -13,11 +13,11 @@ const TwitterContainer = () => {
             width: "350px",
             height: "350px",
           }}
-          cards = "hidden"
-          theme="dark"
-          noHeader= {true}
-          noBorders = {true}
-          noFooter = {true}
+          // cards = "hidden"
+          // theme="dark"
+          // noHeader= {true}
+          // noBorders = {true}
+          // noFooter = {true}
         ></TwitterTimelineEmbed>
       </div>
     </section>
