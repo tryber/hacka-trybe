@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import DefesaCivil from './components/defesaCivilTT';
+import Alerta from './components/Alerta';
 
 function App() {
   return (
     <div className="App">
-        <DefesaCivil />
+        <Alerta />
     </div>
   );
 }

@@ -1,13 +1,12 @@
 import React from 'react';
 import './Alerta.css';
+import TwitterContainer from './TwitterContainer';
 
 function Alerta() {
   return (
     <div className="Alerta">
       <header className="Alerta-header">
-        <p>
-          Insira aqui os componentes
-        </p>
+       <TwitterContainer />
        
       </header>
     </div>
