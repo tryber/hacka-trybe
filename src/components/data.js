@@ -1,9 +1,9 @@
 const Postagens = [
     {
         header: {
-            title: 'teste',
+            title: 'Dicas',
             data: 'teste',
-            category: 'teste',
+            category: 'Dicas',
         },
         text: 'teste',
         image: 'https://img.estadao.com.br/thumbs/640/resources/jpg/4/6/1568205663464.jpg',

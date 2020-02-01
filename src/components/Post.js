@@ -4,7 +4,6 @@ import PostImg from './PostImg';
 import PostText from './PostText.js';
 class Post extends React.Component {
     render() {
-        console.log(this.props)
         const { header, text, image } = this.props.itemPost;
         return (
             <div>
