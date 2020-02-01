@@ -32,7 +32,7 @@ Av. Silva Lobo - Calafate, Belo Horizonte - MG @-19.9278383,-43.973984
 Av. Barão Homem de Melo - Nova Granada, Belo Horizonte - MG @-19.941586,-43.9734027
 Fazenda Velha - Jardim Felicidade, Belo Horizonte - MG, 31742-406 @-19.8235721,-43.9322227
 Novo Aarão Reis, Belo Horizonte - MG @-19.8405148,-43.9126993
-Rua Antônio Ribeiro de Abreu - Ribeiro de Abreu, Belo Horizonte - MG @-19.833275,-43.9058083
+R. Antônio Ribeiro de Abreu - Ribeiro de Abreu, Belo Horizonte - MG @-19.833275,-43.9058083
 Av. Bernardo de Vasconcelos, Belo Horizonte - MG @-19.8832101,-43.9422011
 R. Santa Úrsula - Ouro Minas, Belo Horizonte - MG, 31870-360 @-19.8435129,-43.9088173
 Ribeiro de Abreu, Belo Horizonte - MG @-19.8290816,-43.9168255
