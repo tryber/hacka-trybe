@@ -4,7 +4,7 @@ R. Camões, Belo Horizonte - MG @-19.8338676,-43.9887696
 R. Olávo Bilac - Santa Monica, Belo Horizonte - MG @-19.8207395,-43.9746379
 Av. Virgílio de Melo Franco, Belo Horizonte - MG @-19.8403494,-43.9837888
 Céu Azul, Belo Horizonte - MG @-19.8229707,-44.0087146
-Rua Dr. Álvaro Camargos, Belo Horizonte - MG @-19.825228,-43.962694
+R. Dr. Álvaro Camargos, Belo Horizonte - MG @-19.825228,-43.962694
 Pampulha, Belo Horizonte - MG @-19.8528418,-43.9598869
 R. Ressaca - Santa Terezinha, Belo Horizonte - MG, 31365-440 @-19.8667552,-44.0101574
 Córrego Olhos d'Água @-19.1503006,-45.4503245
