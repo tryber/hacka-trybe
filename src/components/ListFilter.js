@@ -12,7 +12,6 @@ class ListFilter extends React.Component {
   render() {
     const { changeSelectedFilter, select } = this.props;
     const { categories } = this.state;
-    console.log(categories)
     return (
       categories.map((category) => <Filter name={category} change={changeSelectedFilter} select={select} />)
     );

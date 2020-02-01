@@ -1,0 +1,12 @@
+.faq-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.faq-page .question-list {
+  width: 60%;
+}
+
+.faq-page .list-filter {
+  width: 30%;
+}
