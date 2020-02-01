@@ -7,10 +7,9 @@ function Geolocation() {
     navigator.geolocation.getCurrentPosition(
       (position) => {
         getGeolocationTrue(position.coords);
-        console.log(position.coords);
       },
       (error) => {
-        console.log(error);
+        alert(error);
       },
     );
   } else {

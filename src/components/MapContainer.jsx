@@ -27,8 +27,15 @@ export class MapContainer extends React.Component {
       })
     }
   }
+
+  geoLocation(context) {
+    if(context.length > 0) {
+      return context;
+    }
+    return { latitude: '-19.932449', longitude: '-43.939003'}
+  }
   render() {
-    const { geolocation } = this.context;
+    const geolocation = this.geoLocation(this.context.geolocation);
     return (
       <div>
         <Map
@@ -36,6 +43,7 @@ export class MapContainer extends React.Component {
             lat: geolocation.latitude,
             lng: geolocation.longitude,
           }}
+          style={{width: '50%', height: '50%', position: 'relative', margin: '10em'}}
           google={this.props.google}
           zoom={14}
           onClick={this.onMapClicked}
@@ -44,7 +52,7 @@ export class MapContainer extends React.Component {
             return (
               <Marker
                 onClick={this.onMarkerClick}
-                key={point.address}
+                key={point.updated_at}
                 title={point.address}
                 name={point.address}
                 position={{ lat: point.latitude, lng: point.longitude }}
