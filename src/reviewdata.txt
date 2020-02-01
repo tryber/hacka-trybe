@@ -1,0 +1,231 @@
+BARREIRO
+
+Nome: "CRAS Independência",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-5977 / 3277-1514",
+E-mail: "cras.independencia@pbh.gov.br",
+Localização: "Rua Água da Vida, 14 – Independência",
+
+Nome: "CRAS Petrópolis",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-5973 / 3277-9578",
+E-mail: "cras.petropolis@pbh.gov.br",
+Localização: "Rua Frederico Boy Prussiano, 137 - Petrópolis",
+
+Nome: "CRAS Vila Cemig",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-1356 / 3277-1355",
+E-mail: "cras.vilacemig@pbh.gov.br",
+Localização: "Rua Faisão, 1.071 - Flávio Marques Lisboa",
+
+
+CENTRO-SUL
+
+Nome: "CRAS Vila Fátima",
+Horário de funcionamento: "8h às 18h - de segunda a sexta",
+Informações: "(31) 3277-9913",
+E-mail: "cras.vilafatima@pbh.gov.br",
+Localização: "Rua Dona Benta, 145 - Vila Fátima",
+
+Nome: "CRAS Vila Marçola",
+Horário de funcionamento: "8h às 18h de segunda a sexta-feira",
+Informações: "(31) 3246-5004 / 3246-5006",
+E-mail: "cras.vilamarcola@pbh.gov.br",
+Localização: "Rua Engenheiro Lucas Júlio Proença, 73 - Serra",
+
+Nome: "CRAS Santa Rita de Cássia",
+Horário de funcionamento: "8h às 17h30, de segunda a sexta-feira",
+Informações: "(31) 3277-9415 / 3277-9416",
+E-mail: "cras.santaritadecassia@pbh.gov.br",
+Localização: "Rua São Tomaz de Aquino, 640 – Vila Santa Rita de Cássia",
+
+
+LESTE
+
+Nome: "CRAS Alto Vera Cruz",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-1106",
+E-mail: "cras.altoveracruz@pbh.gov.br",
+Localização: "Rua Padre Júlio Maria, 1550 – Alto Vera Cruz",
+
+Nome: "CRAS Granja de Freitas",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-8515 / 3277-5660",
+E-mail: "cras.granjadefreitas@pbh.gov.br",
+Localização: "Rua do Grupo, 12 – Granja de Freitas",
+
+Nome: "CRAS Mariano de Abreu",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-5632",
+E-mail: "cras.marianodeabreu@pbh.gov.br",
+Localização: "Rua 5 de Janeiro, s/nº – Mariano de Abreu",
+
+Nome: "CRAS Taquaril",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-9010",
+E-mail: "cras.taquaril@pbh.gov.br",
+Localização: "Rua Pedro Sintra, 77 – Taquaril",
+
+
+NORDESTE
+
+Nome: "CRAS Arthur de Sá",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-9155/ 3277-9159",
+E-mail: "cras.arthurdesa@pbh.gov.br",
+Localização: "Rua Professor Geraldo Fontes, 30 - União",
+
+Nome: "CRAS Paulo VI",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-6840/ 3277-6636/ 3277-6268/ 3277-1332",
+E-mail: "cras.paulovi@pbh.gov.br",
+Localização: "Rua Neblina,120 - Conjunto Paulo VI",
+
+Nome: "CRAS Vila Maria",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-8024 / 3246-8025/ 3246-8051",
+E-mail: "cras.vilamaria@pbh.gov.br",
+Localização: "Rua dos Argentinos, 105 - Jardim Vitória",
+
+
+NOROESTE
+
+Nome: "CRAS Sumaré",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-7551",
+E-mail: "cras.sumare@pbh.gov.br",
+Localização: "Rua Cirilo Gaspar Araújo, 522 - Aparecida",
+
+Nome: "CRAS Senhor dos Passos",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-6119 / 3277-6005",
+E-mail: "cras.senhordospassos@pbh.gov.br",
+Localização: "Rua Evaristo da Veiga, 239 - Vila Senhor dos Passos",
+
+Nome: "CRAS Pedreira Prado Lopes",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-6032 / 3246-7511",
+E-mail: "cras.pedreirapradolopes@pbh.gov.br",
+Localização: "Avenida José Bonifácio, 189 - São Cristóvão",
+
+Nome: "CRAS Coqueiral",
+Horário de funcionamento: "8h às 18h, de segunda a sexta",
+Informações: "(31) 3277-7179",
+E-mail: "cras.coqueiral@pbh.gov.br",
+Localização: "Rua Rainha das Flores, 102 - Pindorama",
+
+Nome: "CRAS California",
+Horário de funcionamento: "8h às 18h, de segunda a sexta",
+Localização: "Avenida Santa Matilde, 325 - Dom Cabral",
+Informações: "(31) 3277- 6467/ 3246 - 6021",
+E-mail: " cras.vilacalifornia@pbh.gov.br",
+
+
+NORTE
+
+Nome: "CRAS Ziláh Sposito",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-1848",
+E-mail: "cras.zilahsposito@pbh.gov.br",
+Localização: "Rua Coquilhos, 75 - Jaqueline",
+
+Nome: "CRAS Vila Biquinhas",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-8004 / 3246-8005",
+E-mail: "cras.vilabiquinhas@pbh.gov.br",
+Localização: "Rua Coronel Joaquim Tibúrcio, 850 - Heliópolis",
+
+Nome: "CRAS Providência",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-7394 / 3277-6635",
+E-mail: "cras.providencia@pbh.gov.br",
+Localização: "Rua Arantina, 375 - Minaslândia",
+
+Nome: "CRAS Jardim Felicidade",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-9503 / 3246-9501",
+E-mail: "cras.jardimfelicidade@pbh.gov.br",
+Localização: "Rua Cecília Trindade da Silva, 10 - Conjunto Jardim Felicidade",
+
+Nome: "CRAS Aarão Reis",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-1327",
+E-mail: "cras.novoaraoreis@pbh.gov.br",
+Localização: "Avenida Risoleta Neves, 347 - Novo Aarão Reis",
+
+
+OESTE
+
+Nome: "CRAS Havaí | Ventosa",
+Horário de funcionamento: "8h às 18h, de segunda a sexta",
+Localização: "Rua Costa do Marfim, 480 - Havaí ",
+Informações: "(31) 3277-9616 /  3277-9617",
+Espaço anexo: "Rua Nicolina de Lima 316 – Ventosa",
+Informações: "(31) 3277-9972 / 3277-9976",
+E-mail: "cras.havaiventosa@pbh.gov.br",
+
+Nome: "CRAS Morro das Pedras",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-7091",
+E-mail: "cras.morrodaspedras@pbh.gov.br",
+Localização: "Avenida Silva Lobo, 2379 - Nova Granada",
+
+Nome: "CRAS Vila Antena",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-6509/ 3246-6517",
+E-mail: "cras.vilaantena@pbh.gov.br",
+Localização: "Rua Central, 78 - Vila Antena (Morro das Pedras)",
+
+Nome: "CRAS Vista Alegre",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-2011 / 3246-2008",
+E-mail: "crasvistaalegre@pbh.gov.br",
+Localização: "Rua Aguanil, 425 - Vista Alegre",
+
+
+PAMPULHA
+
+Nome: "CRAS São José",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-7149/ 3277-7180",
+E-mail: "cras.saojose@pbh.gov.br",
+Localização: "Rua Joaquim José Ribeiro, 50 - Manacás",
+
+Nome: "CRAS Santa Rosa",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-6698/ 3277-7451/ 3277-8029",
+E-mail: "cras.santarosa@pbh.gov.br",
+Localização: "Rua Major Delfino de Paula, 2.553 - São Francisco",
+
+Nome: "CRAS Novo Ouro Preto",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-7991/ 3277-7964",
+E-mail: "cras.novoouropreto@pbh.gov.br",
+Localização: "Rua Geraldina Cândida de Jesus, 92 - Ouro Preto",
+
+Nome: "CRAS Confisco",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-7146",
+E-mail: "cras.confisco@pbh.gov.br",
+Localização: "Rua Cecília Magalhães Gomes, 127 - Confisco",
+
+
+VENDA NOVA
+
+Nome: "CRAS Mantiqueira",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-1895",
+E-mail: "cras.mantiqueira@pbh.gov.br",
+Localização: "Rua Luzia Salomão, 300 - Mantiqueira",
+
+Nome: "CRAS Lagoa",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3246-9016 / 3277-1836",
+E-mail: "cras.lagoa@pbh.gov.br",
+Localização: "Rua José Sabino Maciel, 120 - Lagoa",
+
+Nome: "CRAS Apolonia",
+Horário de funcionamento: "8h às 18h de segunda a sexta",
+Informações: "(31) 3277-1816 / 3277-1817",
+E-mail: "cras.apolonia@pbh.gov.br",
+Localização: "Rua Visconde de Itaboraí, 304 - Jardim Leblon",
