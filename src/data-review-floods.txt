@@ -47,7 +47,7 @@ Av. Silviano Brandão, Belo Horizonte - MG @-19.9115606,-43.9227387
 Av. Prudente de Morais, Belo Horizonte - MG @-19.9431712,-43.950752
 R. Joaquim Murtinho, Belo Horizonte - MG, 30110-051 @-19.9384576,-43.947784
 Praça Marília de Dirceu @-19.933773,-43.9477718
-rua Bárbara Heliodora @-21.7169791,-47.5635548
+R. Bárbara Heliodora @-21.7169791,-47.5635548
 R. Córrego da Mata, Belo Horizonte - MG @-19.9110257,-43.9220362
 R. Monte Alegre, Belo Horizonte - MG @-19.9335752,-43.9233981
 R. Edgard Coelho - Serra, Belo Horizonte - MG, 30110-921 @-19.9353906,-43.9262842
