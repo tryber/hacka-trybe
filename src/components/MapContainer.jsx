@@ -14,6 +14,11 @@ export class MapContainer extends React.Component {
       selectedPlace: {},
     };
   }
+  
+  componentDidMount() {
+    window.document.title = 'AjudaBH';
+    
+  }
 
   getMarkerIcon(filter) {
     return { 
