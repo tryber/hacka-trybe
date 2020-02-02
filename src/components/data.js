@@ -8,7 +8,7 @@ const participantes = {
     'Fernando Luckesi' : ['https://www.linkedin.com/in/fernando-luckesi-cea%C2%AE-714a93113/', 'https://ca.slack-edge.com/TMDDFEPFU-UPJTLRE3U-50b3af90abd6-512'],
     'Giorgia Leonia': ['https://www.linkedin.com/in/giorgialeonia/', 'https://media-exp1.licdn.com/dms/image/C4E03AQE1Rr5MPT_yqA/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=0DQQh55VJUEoIRjU4tJEpnxUvXqEcAi43T5ZoAWjalI'],
     'Guilherme Crespo': ['https://www.linkedin.com/in/guicrespo/', 'https://ca.slack-edge.com/TMDDFEPFU-UPL732W11-43d623c27338-512'],
-    'Guilherme Luiz Campos': ['https://www.linkedin.com/in/guilherme-assis-campos/', 'https://media-exp1.licdn.com/dms/image/C4D03AQEYtME6dh43gg/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=aOFWouOi2cmk3c9k9CL3V4s99zQJ6QGbLJCopEWJVek'],
+    'Guilherme Luiz Campos': ['https://www.linkedin.com/in/guilherme-assis-campos/', 'https://ca.slack-edge.com/TMDDFEPFU-UMVUNMVL3-c245f54dce21-512'],
     'Henrique Eyer' : ['https://www.linkedin.com/in/henriqueeyer/', 'https://ca.slack-edge.com/TMDDFEPFU-UN7D5GRC5-0e5fbea6f7c1-512'],
     'Johnatas Henrique': ['https://www.linkedin.com/in/johnatashenrique/', 'https://ca.slack-edge.com/TMDDFEPFU-UPPQ6LEKB-df8024b3f24a-512'],
     'Lauro Lyra': ['https://www.linkedin.com/in/laurolyra', 'https://media-exp1.licdn.com/dms/image/C4E03AQEv3kNvRTJgig/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=coJ_jKm2iLeeAw19RMvA96VoNIjslQNwqJZFn6mUc6U'],
