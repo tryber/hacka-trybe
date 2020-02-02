@@ -16,8 +16,7 @@ export class MapContainer extends React.Component {
   }
   
   componentDidMount() {
-    window.document.title = 'AjudaBH';
-    
+    window.document.title = 'AjudaBH'; 
   }
 
   getMarkerIcon(filter) {
