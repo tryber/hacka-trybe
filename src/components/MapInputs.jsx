@@ -12,6 +12,7 @@ class MapInputs extends React.Component {
       userAddress: '',
       endpoint: '',
       addressGeolocation: '',
+      timeout:  0,
     };
   }
 
@@ -22,6 +23,16 @@ class MapInputs extends React.Component {
       data.json().then((response) => this.changeDataState(response, endpoint)),
     );
   }
+
+  doSearch(evt){
+    this.setState({userAddress: evt.target.value});
+    if(this.timeout) clearTimeout(this.timeout);
+    this.timeout = setTimeout(() => {
+      this.sendAPIAddress();
+    }, 1500);
+  }
+
+
 
   changeDataState(response, endpoint) {
     this.setState({ data: response });
@@ -62,11 +73,11 @@ class MapInputs extends React.Component {
         <input
           type="text"
           placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
-          onBlur={(e) => this.setState({ userAddress: e.target.value })}
+          onChange={evt => this.doSearch(evt)}
         />
-        <button type="button" onClick={() => this.sendAPIAddress()}>
+        {/* <button type="button" onClick={() => this.sendAPIAddress()}>
           Pesquisar
-        </button>
+        </button> */}
       </div>
     );
   }
