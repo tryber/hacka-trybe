@@ -65,7 +65,7 @@ export class MapContainer extends React.Component {
                 onClick={this.onMarkerClick}
                 key={point.updated_at}
                 title={point.address}
-                name={point.address}
+                name={point.name ? point.name + " - " + point.address : point.address}
                 position={{ lat: point.latitude, lng: point.longitude }}
               />
             );
