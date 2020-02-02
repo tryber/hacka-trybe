@@ -1,0 +1,48 @@
+.btn-type {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #bdbdbd;
+  background-color: #fff;
+  padding: 10px 30px;
+  margin: 5px;
+  border: none;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-type:hover {
+  color: #FC1055;
+  cursor: pointer;
+}
+
+.btn-type-group {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 44px;
+  color: #bdbdbd;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 25px;
+  width: 30em;
+  margin-left: 60px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.active {
+  color: #FC1055;
+}
