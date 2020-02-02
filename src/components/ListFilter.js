@@ -6,7 +6,7 @@ class ListFilter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      categories: ['Dicas', 'O que fazer?', 'Causas', 'Prevenção', 'Juridico', 'Ajudar', 'Outros'],
+      categories: ['Dicas', 'O que fazer?', 'Causas', 'Prevenção', 'Juridico', 'Ajudar', 'Outros', ],
     };
   }
 

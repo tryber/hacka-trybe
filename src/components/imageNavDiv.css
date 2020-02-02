@@ -1,0 +1,8 @@
+.containerNavDiv .miniImage {
+    width: 100px;
+}
+
+.containerNavDiv {
+    display: flex;
+    justify-content: space-around;
+}
