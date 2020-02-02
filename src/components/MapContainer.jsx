@@ -4,6 +4,7 @@ import { MapContext } from './context/MapContext';
 import shelters from './icons/shelter-map.png';
 import floods from './icons/flood-map.png';
 import donations from './icons/donation-map.png';
+import './MapContainer.css';
 
 export class MapContainer extends React.Component {
   constructor(props) {
@@ -12,23 +13,28 @@ export class MapContainer extends React.Component {
       showingInfoWindow: false,
       activeMarker: {},
       selectedPlace: {},
+      location: '',
     };
+  }
+  
+  componentDidMount() {
+    window.document.title = 'AjudaBH'; 
   }
 
   getMarkerIcon(filter) {
-    return { 
+    return {
       shelters,
       floods,
-      donations
+      donations,
     }[filter];
   }
-    
 
   onMarkerClick = (props, marker, e) =>
     this.setState({
       selectedPlace: props,
       activeMarker: marker,
       showingInfoWindow: true,
+      location: props.position,
     });
 
   onMapClicked = (props) => {
@@ -36,15 +42,22 @@ export class MapContainer extends React.Component {
       this.setState({
         showingInfoWindow: false,
         activeMarker: null,
+        location: '',
       });
     }
   };
 
   geoLocation(context) {
-    if (context.geolocationEndpoint) {
+    if (this.state.location !== '') {
       return {
-        latitude: context.geolocationEndpoint.lat,
-        longitude: context.geolocationEndpoint.lng,
+        latitude: this.state.location.lat,
+        longitude: this.state.location.lng,
+      };
+    }
+    if (this.props.addressGeolocation !== '') {
+      return {
+        latitude: this.props.addressGeolocation.lat,
+        longitude: this.props.addressGeolocation.lng,
       };
     }
     if (context.geolocation.latitude) {
@@ -53,39 +66,59 @@ export class MapContainer extends React.Component {
     return { latitude: '-19.932449', longitude: '-43.939003' };
   }
 
+  generateMarkerName(name, address, phone) {
+    if (name) {
+      if (phone) {
+      return `${name} \n ${address} \n Telefone: ${phone}`;
+      } else {
+        return `${name} \n ${address}`;
+      }
+    }
+    return address;
+  }
+
   render() {
+    console.log(this.props.data);
     const geolocation = this.geoLocation(this.context);
     return (
       <div>
         <Map
-          initialCenter={{ latitude: '-19.932449', longitude: '-43.939003' }}
           center={{
             lat: geolocation.latitude,
             lng: geolocation.longitude,
           }}
-          style={{
+          // style={{
 
-          }}
+          // }}
           google={this.props.google}
           zoom={14}
           onClick={this.onMapClicked}
           mapTypeControl={false}
         >
-          {this.props.data ? this.props.data.map((point) => {
-            return (
-              <Marker
-                onClick={this.onMarkerClick}
-                key={point.updated_at}
-                title={point.address}
-                name={point.name ? point.name + " - " + point.address : point.address}
-                position={{ lat: point.latitude, lng: point.longitude }}
-                icon={{
-                  url: this.getMarkerIcon(this.props.filter),
-                  scaledSize: this.props.google.maps.Size(5,5)
-                }}
-              />
-            );
-          }) : null}
+          {this.props.data
+            ? this.props.data.map((point) => {
+                return (
+                  <Marker
+                    // className=''
+                    onClick={this.onMarkerClick}
+                    key={point.updated_at}
+                    title={point.address}
+                    name={
+                      this.generateMarkerName(
+                        point.name,
+                        point.address,
+                        point.phone,
+                      )
+                    }
+                    position={{ lat: point.latitude, lng: point.longitude }}
+                    icon={{
+                      url: this.getMarkerIcon(this.props.filter),
+                      scaledSize: this.props.google.maps.Size(5, 5),
+                    }}
+                  />
+                );
+              })
+            : null}
           <InfoWindow
             marker={this.state.activeMarker}
             visible={this.state.showingInfoWindow}

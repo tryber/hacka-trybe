@@ -4,7 +4,6 @@ const MapContext = createContext();
 const MapProvider = ({ children }) => {
   const [geolocation, setGeolocation] = useState({});
   const [endpoint, setEndpoint] = useState('');
-  const [geolocationEndpoint, setGeolocationEndpoint] = useState();
 
   const getGeolocationTrue = (location) => setGeolocation(location);
   const context = {
@@ -12,8 +11,6 @@ const MapProvider = ({ children }) => {
     getGeolocationTrue,
     endpoint,
     setEndpoint,
-    geolocationEndpoint,
-    setGeolocationEndpoint,
   };
 
   return <MapContext.Provider value={context}>{children}</MapContext.Provider>;
