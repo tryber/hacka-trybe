@@ -3,6 +3,7 @@
     padding: 0px;
     overflow-x: hidden;
     overflow-y: auto;
+    font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -16,36 +17,34 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color: #EAEAEA;
+    background-color: #FC1055;
     margin-top: 0px;
     width: 100vw;
     height: 79px;
 }
 
 #logo {
-    width: 112px;
-    height: 60px;
-    margin-left: 11px;
-    background-color: #DEDEDE;
-    border-radius: 3px;
+    margin-left: 16px;
+    font-size: 44px;
     text-align: center;
+    color: white;
 }
 
 #buttons {
-    width: 112px;
-    height: 60px;
+    width: 150px;
+    height: 44px;
     display: flex;
-    justify-content: space-around;
-    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 28px;
 }
 
-#circle-icon {
-    background-color: #B2B1B1;
-    width: 44px;
-    height: 44px;
-    border-radius: 100%;
-    margin-top: 5px;
-    cursor: pointer;
+#about-us {
+    color: #FC1055;
+    font-size: 13px;
 }
 
 section {
@@ -80,7 +79,4 @@ content {
 #map {
     width: 80vw;
     height: 600px;
-    background-image: url(https://i.imgur.com/9Cya1PA.png);
-    background-position: initial;
-    background-size: cover;
 }
