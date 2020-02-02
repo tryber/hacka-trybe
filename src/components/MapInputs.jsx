@@ -2,6 +2,10 @@ import React from 'react';
 import Geocode from 'react-geocode';
 import MapContainer from './MapContainer';
 import { MapContext } from './context/MapContext';
+import FloodIcon from './icons/FloodIcon';
+import ShelterIcon from './icons/ShelterIcon';
+import DonationIcon from './icons/DonationIcon';
+import './MapInputs.css';
 
 class MapInputs extends React.Component {
   constructor(props) {
@@ -11,19 +15,27 @@ class MapInputs extends React.Component {
       data: [],
       userAddress: '',
       endpoint: '',
+      fullData: {},
     };
   }
 
-  requestAPI(param, endpoint = '') {
+  requestAPI(param, bol) {
     return fetch(
-      `https://hackatrybe.herokuapp.com/${param}${endpoint}`,
+      `https://hackatrybe.herokuapp.com/${param}`,
     ).then((data) =>
-      data.json().then((response) => this.changeDataState(response, endpoint)),
+      data.json().then((response) => this.changeDataset(param, response, bol)),
     );
   }
 
-  changeDataState(response, endpoint) {
-    this.setState({ data: response });
+  changeDataset(param, response, bol) {
+    if(bol) {
+      this.setState({[param]: response, data: response})
+    } else {
+      this.setState({[param]: response})
+    }
+  }
+
+  changeDataState(endpoint) {
     if(endpoint !== '') {
         Geocode.setApiKey('AIzaSyDg2CCtZwxt0DZXmOtT2rK4oBKzUNkfGok');
         Geocode.fromAddress(this.state.userAddress).then(
@@ -39,18 +51,18 @@ class MapInputs extends React.Component {
   }
 
   changeHandler(event) {
-    this.setState({ filter: event.target.value });
-    this.requestAPI(event.target.value);
+    this.setState({ filter: event.target.value, data: this.state[event.target.value] });
   }
 
   componentDidMount() {
-    this.requestAPI('donations');
+    this.requestAPI('donations', true);
+    this.requestAPI('shelters', false);
+    this.requestAPI('floods', false);
   }
 
   sendAPIAddress() {
     if (this.state.userAddress !== '') {
-      this.setState({ endpoint: `?s=${this.state.userAddress}` });
-      this.requestAPI(this.state.filter, `?s=${this.state.userAddress}`);
+      this.changeDataState(this.state.userAddress);
     }
     return this.setState({ endpoint: '' });
   }
@@ -59,6 +71,7 @@ class MapInputs extends React.Component {
     return (
       <div>
         <input
+          class="search-input"
           type="text"
           placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
           onBlur={(e) => this.setState({ userAddress: e.target.value })}
@@ -71,41 +84,29 @@ class MapInputs extends React.Component {
   }
   generateInputs() {
     return (
-      <div>
-        <input
-          type="radio"
-          onChange={(e) => this.changeHandler(e)}
-          name="typeFilter"
-          value="donations"
-          id="donations"
-        />
-        <label htmlFor="donations">Doações</label>
-        <input
-          type="radio"
-          onChange={(e) => this.changeHandler(e)}
-          name="typeFilter"
-          value="floods"
-          id="floods"
-        />
-        <label htmlFor="floods">Alagamentos</label>
-        <input
-          type="radio"
-          onChange={(e) => this.changeHandler(e)}
-          name="typeFilter"
-          value="shelters"
-          id="shelters"
-        />
-        <label htmlFor="shelters">Abrigos</label>
+      <div class="btn-type-group">
+        <button className={"btn-type " + (this.state.filter === "donations" ? "active" : "")} value="donations" onClick={(e) => this.changeHandler(e)}>
+          <DonationIcon/> Doações
+        </button>
+        <button className={"btn-type " + (this.state.filter === "floods" ? "active" : "")} value="floods" onClick={(e) => this.changeHandler(e)}>
+          <FloodIcon/> Alagamentos
+        </button>
+        <button className={"btn-type " + (this.state.filter === "shelters" ? "active" : "")} value="shelters" onClick={(e) => this.changeHandler(e)}>
+          <ShelterIcon/> Abrigos
+        </button>
       </div>
     );
   }
 
   render() {
+    console.log(this.state.data)
     return (
       <div>
-        {this.generateInputs()}
-        {this.generateButtonOfSearch()}
-        <MapContainer data={this.state.data} />
+        <MapContainer data={this.state.data} filter={this.state.filter} />
+        <div style={{position: 'relative', display: 'flex', alignItems: 'center'}}>
+          {this.generateButtonOfSearch()}
+          {this.generateInputs()}
+        </div>
       </div>
     );
   }
