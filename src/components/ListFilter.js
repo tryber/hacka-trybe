@@ -1,5 +1,6 @@
 import React from 'react';
 import Filter from './Filter.js'
+import './Filter.css'
 
 class ListFilter extends React.Component {
   constructor(props) {
@@ -13,7 +14,9 @@ class ListFilter extends React.Component {
     const { changeSelectedFilter, select } = this.props;
     const { categories } = this.state;
     return (
-      categories.map((category) => <Filter name={category} change={changeSelectedFilter} select={select} />)
+      <div className="ListFilter">
+        {categories.map((category) => <Filter name={category} change={changeSelectedFilter} select={select} />)}
+      </div>
     );
   }
 }

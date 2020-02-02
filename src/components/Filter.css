@@ -1,0 +1,22 @@
+label {
+  text-align: center;
+  display: block;
+  position: relative;
+  padding: 27px 72px 27px 72px;
+  cursor: pointer;
+  font-size: 22px;
+  margin-bottom: 12px;
+  user-select: none;
+  box-shadow: 0px 6.04079px 30.2039px rgba(26, 60, 68, 0.07);
+  border-radius: 3.16052px;
+}
+
+
+.radiobtn {
+  display: none;
+}
+
+.radiobtn:checked + label {
+  outline: 3px solid #FC1055;
+  padding: 27px 72px 27px 72px;
+}

@@ -1,20 +1,12 @@
 import React from 'react';
-import './App.css';
-import { Provider } from './components/context/MapContext';
-import MapInputs from './components/MapInputs';
-import Geolocation from './components/Geolocation';
-import FAQ from './components/FAQ';
-// import InputSearch from './components/inputSearch';
+import FAQ from './components/FAQ'
+import faqData from './components/faqData';
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Provider>
-        {/* <InputSearch /> */}
-        <FAQ />
-        <MapInputs />
-        <Geolocation />
-      </Provider>
+    <div>
+      <FAQ questionList={faqData} />
     </div>
   );
 }
