@@ -2,7 +2,7 @@ const Postagens = [
     {
         header: {
             title: 'Dicas',
-            data: '01/02/2020',
+            data: '2019-02-01',
             category: 'Dicas',
         },
         text: `Lixo, coloque em áreas não alagáveis, que não obstrua a passagem da água.
@@ -16,7 +16,7 @@ const Postagens = [
     {
         header: {
             title: 'Durante a chuva e inundação:',
-            data: '01/02/2020',
+            data: '2018-05-02',
             category: 'O que fazer?',
         },
         text: `Evite o contato com direto com a água, fique atentos crianças;
@@ -31,7 +31,7 @@ const Postagens = [
     {
         header: {
             title: 'Causas DE Alagamento:',
-            data: '01/02/2020',
+            data: '2015-08-30',
             category: 'Causas',
         },
         text: `Meteorológicas/Atmosféricas: chuva intensas, derretimento da neve, tufão, furacões, ciclones 
@@ -41,7 +41,7 @@ const Postagens = [
     {
         header: {
             title: 'Prevenção',
-            data: '01/02/2020',
+            data: '2017-07-12',
             category: 'Prevenção',
         },
         text: `Em regiões sujeitas a enchentes ou delisamento, se previna quando houver ameaça de chuva forte;
@@ -57,7 +57,7 @@ const Postagens = [
     {
         header: {
             title: 'Aluguel Social',
-            data: '01/02/2020',
+            data: '2016-10-02',
             category: 'Juridico',
         },
         text: `Apesar de os acidentes com moradias serem muito traumáticos e gerarem bastante gasto, não são todas as vítimas disso que podem solicitar ao Governo o Aluguel Social. Existem alguns perfis de famílias para os quais esse benefício é permitido, como as que residem em áreas de risco e as que estão no Tarifa Social de Energia Elétrica. O auxílio-aluguel pode ser dado a quem está no Bolsa Família e àqueles que passaram por desastres naturais, além dos incluídos no Cadastro Único. Destaca-se que o Programa de Aceleração do Crescimento (PAC) também foi razão para que várias pessoas recebessem o Salário Aluguel, uma vez que tiveram de sair de suas residências. Sendo assim, os brasileiros podem requisitar esse auxílio se alguma obra prejudicar o seu imóvel.`,
@@ -66,7 +66,7 @@ const Postagens = [
     {
         header: {
             title: 'Servas',
-            data: '01/02/2020',
+            data: '2015-01-15',
             category: 'Ajudar',
         },
         text: `O Serviço Social Autônomo (Servas) lançou campanha de arrecadação na quinta-feira (23). Até então, eram atendidos pedidos pontuais, de acordo com as necessidades dos municípios. Mas, com o agravamento da situação após as tempestades, foi iniciada uma nova ação. “Iniciamos a campanha na tarde da quinta-feira pelas redes sociais e esperamos um aumento das doações. Para isso, estaremos funcionando no sábado e também no domingo das 8h às 12h”, explica a técnica social Sarah Prado.Para contribuir, basta entregar os materiais na sede da entidade, na avenida Cristóvão Colombo, 683, próximo ao Palácio da Liberdade, no bairro Funcionários, região Centro-Sul de BH. 
@@ -76,7 +76,7 @@ const Postagens = [
     {
         header: {
             title: 'Depois da Chuva:',
-            data: '01/02/2020',
+            data: '2018-05-02',
             category: 'Outros',
         },
         text: `Beba apenas água filtrada ou fervida;
