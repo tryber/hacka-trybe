@@ -1,12 +1,16 @@
 import React from 'react';
-import FAQ from './components/FAQ'
-import faqData from './components/faqData';
-import './App.css'
+import './App.css';
+import { Provider } from './components/context/MapContext';
+import MapInputs from './components/MapInputs';
+import Geolocation from './components/Geolocation';
 
 function App() {
   return (
-    <div>
-      <FAQ questionList={faqData} />
+    <div className="App">
+      <Provider>
+        <MapInputs />
+        <Geolocation />
+      </Provider>
     </div>
   );
 }
