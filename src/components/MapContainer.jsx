@@ -42,7 +42,6 @@ export class MapContainer extends React.Component {
 
   geoLocation(context) {
     if (context.geolocationEndpoint) {
-      console.log('passou no endpoint')
       return {
         latitude: context.geolocationEndpoint.lat,
         longitude: context.geolocationEndpoint.lng,
@@ -55,7 +54,6 @@ export class MapContainer extends React.Component {
   }
 
   render() {
-    // console.log(this.context.geolocation)
     const geolocation = this.geoLocation(this.context);
     return (
       <div>

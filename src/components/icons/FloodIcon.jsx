@@ -3,8 +3,8 @@ import React from 'react';
 class FloodIcon extends React.Component {
   render() {
     return (
-      <svg class="icon" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2507 31.357C24.5937 31.357 31.357 24.5937 31.357 16.2507C31.357 7.90774 24.5937 1.14442 16.2507 1.14442C7.90774 1.14442 1.14442 7.90774 1.14442 16.2507C1.14442 24.5937 7.90774 31.357 16.2507 31.357ZM16.2507 32.5014C25.2257 32.5014 32.5014 25.2257 32.5014 16.2507C32.5014 7.27569 25.2257 0 16.2507 0C7.27569 0 0 7.27569 0 16.2507C0 25.2257 7.27569 32.5014 16.2507 32.5014Z" fill="#E24C4B"/>
+      <svg className="icon" width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fillRule="evenodd" clipRule="evenodd" d="M16.2507 31.357C24.5937 31.357 31.357 24.5937 31.357 16.2507C31.357 7.90774 24.5937 1.14442 16.2507 1.14442C7.90774 1.14442 1.14442 7.90774 1.14442 16.2507C1.14442 24.5937 7.90774 31.357 16.2507 31.357ZM16.2507 32.5014C25.2257 32.5014 32.5014 25.2257 32.5014 16.2507C32.5014 7.27569 25.2257 0 16.2507 0C7.27569 0 0 7.27569 0 16.2507C0 25.2257 7.27569 32.5014 16.2507 32.5014Z" fill="#E24C4B"/>
         <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="28" height="28">
         <circle cx="16.2508" cy="16.2507" r="13.2752" fill="#C4C4C4"/>
         </mask>

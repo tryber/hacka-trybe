@@ -5,6 +5,7 @@ import { MapContext } from './context/MapContext';
 import FloodIcon from './icons/FloodIcon';
 import ShelterIcon from './icons/ShelterIcon';
 import DonationIcon from './icons/DonationIcon';
+import SearchIcon from './icons/SearchIcon';
 import './MapInputs.css';
 
 class MapInputs extends React.Component {
@@ -69,22 +70,22 @@ class MapInputs extends React.Component {
 
   generateButtonOfSearch() {
     return (
-      <div>
+      <div className="search-group">
         <input
-          class="search-input"
+          className="search-input"
           type="text"
           placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
           onBlur={(e) => this.setState({ userAddress: e.target.value })}
         />
-        <button type="button" onClick={() => this.sendAPIAddress()}>
-          Pesquisar
+        <button className="btn-search" type="button" onClick={() => this.sendAPIAddress()}>
+          <SearchIcon/>
         </button>
       </div>
     );
   }
   generateInputs() {
     return (
-      <div class="btn-type-group">
+      <div className="btn-type-group">
         <button className={"btn-type " + (this.state.filter === "donations" ? "active" : "")} value="donations" onClick={(e) => this.changeHandler(e)}>
           <DonationIcon/> Doações
         </button>
@@ -99,11 +100,10 @@ class MapInputs extends React.Component {
   }
 
   render() {
-    console.log(this.state.data)
     return (
       <div>
         <MapContainer data={this.state.data} filter={this.state.filter} />
-        <div style={{position: 'relative', display: 'flex', alignItems: 'center'}}>
+        <div className="inputs-group">
           {this.generateButtonOfSearch()}
           {this.generateInputs()}
         </div>
