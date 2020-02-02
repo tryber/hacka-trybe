@@ -1,0 +1,94 @@
+.Post {
+  width: 619px;
+  background: #E5E5E5;
+  margin: 20px;
+}
+
+.Post .PostImg{
+  width: 619px;
+  height: 282px;
+  margin-bottom: 20px;
+}
+
+.Post .Header{
+  padding: 0 10px 20px;
+  text-align: start;
+  margin-left: 0 0 20px 20px;
+}
+
+.Post .PostText{
+  padding: 0 20px 20px;
+}
+
+.Post .PostText p{
+  margin-top: -20px;
+}
+
+.Post {
+  font-family: Roboto;
+  line-height: 25px;
+}
+
+.Post p{
+  font-family: Roboto;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.Post .compartilhou {
+  align-self: center;
+  margin: 0 5px;
+  margin-top: 4px;
+  font-weight: 800;
+  font-size: 12px;
+  color:gray;
+}
+
+.Post .tag {
+  font-size: 14px;
+  background: #FC1055;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.Post h3 {
+  display: flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 5px;
+  margin: 0px;
+}
+
+.Post .line-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Post .line-header .top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+}
+
+.Post .line-header .date{
+  width: 100%;
+}
+
+.Post .sub-title {
+  margin: 0px 20px;
+  text-align: left;
+}
+
+.Post .sub-title h4{
+  font-size: 30px;
+  margin: 0;
+}
+
+.Post .sub-title h6{
+  font-size: 18px;
+  margin-top:15px;
+}
