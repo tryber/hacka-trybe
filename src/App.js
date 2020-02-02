@@ -20,6 +20,7 @@ function App() {
           </Route>
           <Route path="/faq" component={"<component />"} />
           <Route path="/info:id" component={"<component />"} />
+          <Route path="/about" component={"<component />"} />
         </Switch>
       </Router>
     </Provider>
