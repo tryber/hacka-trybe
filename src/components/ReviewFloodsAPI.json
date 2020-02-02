@@ -1,0 +1,722 @@
+[
+  {
+    "id": 1,
+    "address": "Av. Prefeito Gil Diniz – Centro, Contagem - MG",
+    "latitude": -19.917371,
+    "longitude": -44.083394,
+    "created_at": "2020-02-01T21:14:22.905Z",
+    "updated_at": "2020-02-01T21:14:22.905Z"
+  },
+  {
+    "id": 2,
+    "address": "Rua Domingo do Sitio – Fonte Grande, Contagem - MG",
+    "latitude": -19.925041,
+    "longitude": -44.086282,
+    "created_at": "2020-02-01T21:14:22.922Z",
+    "updated_at": "2020-02-01T21:14:22.922Z"
+  },
+  {
+    "id": 3,
+    "address": "Rua Piatã com Rua Parati – São Mateus, Contagem - MG",
+    "latitude": -19.86009,
+    "longitude": -44.029104,
+    "created_at": "2020-02-01T21:14:22.928Z",
+    "updated_at": "2020-02-01T21:14:22.928Z"
+  },
+  {
+    "id": 4,
+    "address": "Av. A – Vale das Amendoeiras, Contagem - MG",
+    "latitude": -19.852174,
+    "longitude": -44.033409,
+    "created_at": "2020-02-01T21:14:22.934Z",
+    "updated_at": "2020-02-01T21:14:22.934Z"
+  },
+  {
+    "id": 5,
+    "address": "Rua Queluzito - Bairro Tijuca, Contagem - MG",
+    "latitude": -19.857001,
+    "longitude": -44.012457,
+    "created_at": "2020-02-01T21:14:22.941Z",
+    "updated_at": "2020-02-01T21:14:22.941Z"
+  },
+  {
+    "id": 6,
+    "address": "Av. Água Branca – Água Branca, Contagem - MG",
+    "latitude": -19.926568,
+    "longitude": -44.034652,
+    "created_at": "2020-02-01T21:14:22.947Z",
+    "updated_at": "2020-02-01T21:14:22.947Z"
+  },
+  {
+    "id": 7,
+    "address": "Av. Firmo de Matos com Av. Norte Sul – Eldorado, Contagem - MG",
+    "latitude": -19.95044,
+    "longitude": -44.039444,
+    "created_at": "2020-02-01T21:14:22.958Z",
+    "updated_at": "2020-02-01T21:14:22.958Z"
+  },
+  {
+    "id": 8,
+    "address": "Rua João Gomes Cardoso - Eldorado, Contagem - MG",
+    "latitude": -19.947412,
+    "longitude": -44.041309,
+    "created_at": "2020-02-01T21:14:22.965Z",
+    "updated_at": "2020-02-01T21:14:22.965Z"
+  },
+  {
+    "id": 9,
+    "address": "Av. Teleferico com Av. Pio XII – Água Branca, Contagem - MG",
+    "latitude": -19.929495,
+    "longitude": -44.030559,
+    "created_at": "2020-02-01T21:14:22.971Z",
+    "updated_at": "2020-02-01T21:14:22.971Z"
+  },
+  {
+    "id": 10,
+    "address": "Av. Firmo de Matos – Vila Marimbondo, Contagem - MG",
+    "latitude": -19.950359,
+    "longitude": -44.052122,
+    "created_at": "2020-02-01T21:14:22.977Z",
+    "updated_at": "2020-02-01T21:14:22.977Z"
+  },
+  {
+    "id": 11,
+    "address": "Rua das Candeias – Vila Marimbondo, Contagem - MG",
+    "latitude": -19.947765,
+    "longitude": -44.04302,
+    "created_at": "2020-02-01T21:14:22.982Z",
+    "updated_at": "2020-02-01T21:14:22.982Z"
+  },
+  {
+    "id": 12,
+    "address": "Rua Nossa Senhora da Paz - Água Branca, Contagem - MG",
+    "latitude": -19.930368,
+    "longitude": -44.037562,
+    "created_at": "2020-02-01T21:14:22.988Z",
+    "updated_at": "2020-02-01T21:14:22.988Z"
+  },
+  {
+    "id": 13,
+    "address": "Av. Arco Verde – Água Branca, Contagem - MG",
+    "latitude": -19.931806,
+    "longitude": -44.0357,
+    "created_at": "2020-02-01T21:14:22.993Z",
+    "updated_at": "2020-02-01T21:14:22.993Z"
+  },
+  {
+    "id": 14,
+    "address": "Av. David Sarnoff – Trincheira do Itaú, Contagem - MG",
+    "latitude": -19.948282,
+    "longitude": -44.024621,
+    "created_at": "2020-02-01T21:14:22.999Z",
+    "updated_at": "2020-02-01T21:14:22.999Z"
+  },
+  {
+    "id": 15,
+    "address": "Rua Monsenhor Messias com Rua Maria Figueiredo Silva – Flamengo, Contagem - MG",
+    "latitude": -19.961813,
+    "longitude": -44.05601,
+    "created_at": "2020-02-01T21:14:23.005Z",
+    "updated_at": "2020-02-01T21:14:23.005Z"
+  },
+  {
+    "id": 16,
+    "address": "Av. Teresa Cristina – Vila São Paulo, Contagem - MG",
+    "latitude": -19.953266,
+    "longitude": -44.013061,
+    "created_at": "2020-02-01T21:14:23.011Z",
+    "updated_at": "2020-02-01T21:14:23.011Z"
+  },
+  {
+    "id": 17,
+    "address": "Rua Jorge Ferreira Gomes Vírginia - Industrial, Contagem - MG",
+    "latitude": -19.946282,
+    "longitude": -44.020199,
+    "created_at": "2020-02-01T21:14:23.018Z",
+    "updated_at": "2020-02-01T21:14:23.018Z"
+  },
+  {
+    "id": 18,
+    "address": "Rua Santa Maria esq. Com Praça Santa Maria – Santa Maria, Contagem - MG",
+    "latitude": -19.972969,
+    "longitude": -44.047771,
+    "created_at": "2020-02-01T21:14:23.024Z",
+    "updated_at": "2020-02-01T21:14:23.024Z"
+  },
+  {
+    "id": 19,
+    "address": "Rua Coronel Américo Teixeira Guimarães - Industrial, Contagem - MG",
+    "latitude": -19.977561,
+    "longitude": -44.034852,
+    "created_at": "2020-02-01T21:14:23.030Z",
+    "updated_at": "2020-02-01T21:14:23.030Z"
+  },
+  {
+    "id": 20,
+    "address": "Av. Princesa Isabel Com Avenida Severino Balesteros Rodrigues, Contagem - MG",
+    "latitude": -19.87454,
+    "longitude": -44.026355,
+    "created_at": "2020-02-01T21:14:23.036Z",
+    "updated_at": "2020-02-01T21:14:23.036Z"
+  },
+  {
+    "id": 21,
+    "address": "Av. Das Américas Com Alameda Dos Rouxinóis, Contagem - MG",
+    "latitude": -19.886322,
+    "longitude": -44.039838,
+    "created_at": "2020-02-01T21:14:23.046Z",
+    "updated_at": "2020-02-01T21:14:23.046Z"
+  },
+  {
+    "id": 22,
+    "address": "Ocupação Guarani Kayowa, Contagem - MG",
+    "latitude": -19.88466,
+    "longitude": -44.023579,
+    "created_at": "2020-02-01T21:14:23.052Z",
+    "updated_at": "2020-02-01T21:14:23.052Z"
+  },
+  {
+    "id": 23,
+    "address": "Av. Francisco Firmo de Matos com Rua Rio Colorado – Riacho das Pedras, Contagem - MG",
+    "latitude": -19.954707,
+    "longitude": -44.055666,
+    "created_at": "2020-02-01T21:14:23.058Z",
+    "updated_at": "2020-02-01T21:14:23.058Z"
+  },
+  {
+    "id": 24,
+    "address": "Av. Coronel Jove Soares – Riacho, Contagem - MG",
+    "latitude": -19.960072,
+    "longitude": -44.042724,
+    "created_at": "2020-02-01T21:14:23.063Z",
+    "updated_at": "2020-02-01T21:14:23.063Z"
+  },
+  {
+    "id": 25,
+    "address": "Rua Rio Volga com Rua Rio Para – Riacho, Contagem - MG",
+    "latitude": -19.952045,
+    "longitude": -44.052336,
+    "created_at": "2020-02-01T21:14:23.070Z",
+    "updated_at": "2020-02-01T21:14:23.070Z"
+  },
+  {
+    "id": 26,
+    "address": "Rua São Vicente com Av. David Sarnoff – Inconfidentes, Contagem - MG",
+    "latitude": -19.957393,
+    "longitude": -44.034573,
+    "created_at": "2020-02-01T21:14:23.076Z",
+    "updated_at": "2020-02-01T21:14:23.076Z"
+  },
+  {
+    "id": 27,
+    "address": "Av. Vilarinho - Venda Nova, Belo Horizonte - MG",
+    "latitude": -19.8127816,
+    "longitude": -43.9608969,
+    "created_at": "2020-02-01T21:14:23.082Z",
+    "updated_at": "2020-02-01T21:14:23.082Z"
+  },
+  {
+    "id": 28,
+    "address": "Av. Liége, Belo Horizonte - MG",
+    "latitude": -19.8016468,
+    "longitude": -43.973621,
+    "created_at": "2020-02-01T21:14:23.088Z",
+    "updated_at": "2020-02-01T21:14:23.088Z"
+  },
+  {
+    "id": 29,
+    "address": "R. Camões, Belo Horizonte - MG",
+    "latitude": -19.8338676,
+    "longitude": -43.9887696,
+    "created_at": "2020-02-01T21:14:23.093Z",
+    "updated_at": "2020-02-01T21:14:23.093Z"
+  },
+  {
+    "id": 30,
+    "address": "R. Olávo Bilac - Santa Monica, Belo Horizonte - MG",
+    "latitude": -19.8207395,
+    "longitude": -43.9746379,
+    "created_at": "2020-02-01T21:14:23.099Z",
+    "updated_at": "2020-02-01T21:14:23.099Z"
+  },
+  {
+    "id": 31,
+    "address": "Av. Virgílio de Melo Franco, Belo Horizonte - MG",
+    "latitude": -19.8403494,
+    "longitude": -43.9837888,
+    "created_at": "2020-02-01T21:14:23.107Z",
+    "updated_at": "2020-02-01T21:14:23.107Z"
+  },
+  {
+    "id": 32,
+    "address": "Céu Azul, Belo Horizonte - MG",
+    "latitude": -19.8229707,
+    "longitude": -44.0087146,
+    "created_at": "2020-02-01T21:14:23.113Z",
+    "updated_at": "2020-02-01T21:14:23.113Z"
+  },
+  {
+    "id": 33,
+    "address": "Rua Dr. Álvaro Camargos, Belo Horizonte - MG",
+    "latitude": -19.825228,
+    "longitude": -43.962694,
+    "created_at": "2020-02-01T21:14:23.119Z",
+    "updated_at": "2020-02-01T21:14:23.119Z"
+  },
+  {
+    "id": 34,
+    "address": "Pampulha, Belo Horizonte - MG",
+    "latitude": -19.8528418,
+    "longitude": -43.9598869,
+    "created_at": "2020-02-01T21:14:23.124Z",
+    "updated_at": "2020-02-01T21:14:23.124Z"
+  },
+  {
+    "id": 35,
+    "address": "R. Ressaca -  Santa Terezinha, Belo Horizonte - MG, 31365-440",
+    "latitude": -19.8667552,
+    "longitude": -44.0101574,
+    "created_at": "2020-02-01T21:14:23.130Z",
+    "updated_at": "2020-02-01T21:14:23.130Z"
+  },
+  {
+    "id": 36,
+    "address": "Córrego Olhos d'Água",
+    "latitude": -19.1503006,
+    "longitude": -45.4503245,
+    "created_at": "2020-02-01T21:14:23.142Z",
+    "updated_at": "2020-02-01T21:14:23.142Z"
+  },
+  {
+    "id": 37,
+    "address": "Braúnas, MG, 35169-000",
+    "latitude": -19.0556944,
+    "longitude": -42.7232582,
+    "created_at": "2020-02-01T21:14:23.151Z",
+    "updated_at": "2020-02-01T21:14:23.151Z"
+  },
+  {
+    "id": 38,
+    "address": "Av. Sebastião de Brito, Belo Horizonte - MG, 31270-705",
+    "latitude": -19.8616349,
+    "longitude": -43.9437965,
+    "created_at": "2020-02-01T21:14:23.158Z",
+    "updated_at": "2020-02-01T21:14:23.158Z"
+  },
+  {
+    "id": 39,
+    "address": "Av. Cristiano Machado, Belo Horizonte - MG",
+    "latitude": -19.8581744,
+    "longitude": -43.9366965,
+    "created_at": "2020-02-01T21:14:23.169Z",
+    "updated_at": "2020-02-01T21:14:23.169Z"
+  },
+  {
+    "id": 40,
+    "address": "Av. Heráclito Mourão de Miranda, Belo Horizonte - MG",
+    "latitude": -19.8767343,
+    "longitude": -44.0062657,
+    "created_at": "2020-02-01T21:14:23.190Z",
+    "updated_at": "2020-02-01T21:14:23.190Z"
+  },
+  {
+    "id": 41,
+    "address": "Av. Prof. Clóvis Salgado - Bandeirantes (Pampulha), Belo Horizonte - MG",
+    "latitude": -19.8646878,
+    "longitude": -44.0064391,
+    "created_at": "2020-02-01T21:14:23.195Z",
+    "updated_at": "2020-02-01T21:14:23.195Z"
+  },
+  {
+    "id": 42,
+    "address": "Regional Noroeste",
+    "latitude": -19.9138044,
+    "longitude": -43.9487202,
+    "created_at": "2020-02-01T21:14:23.203Z",
+    "updated_at": "2020-02-01T21:14:23.203Z"
+  },
+  {
+    "id": 43,
+    "address": "R. Tocantins, Belo Horizonte - MG",
+    "latitude": -19.8844367,
+    "longitude": -44.011309,
+    "created_at": "2020-02-01T21:14:23.209Z",
+    "updated_at": "2020-02-01T21:14:23.209Z"
+  },
+  {
+    "id": 44,
+    "address": "Av. Amintas Jacques de Morais, Belo Horizonte - MG",
+    "latitude": -19.9010238,
+    "longitude": -44.0205864,
+    "created_at": "2020-02-01T21:14:23.214Z",
+    "updated_at": "2020-02-01T21:14:23.214Z"
+  },
+  {
+    "id": 45,
+    "address": "Rua Beira Córrego - Ipanema, Belo Horizonte - MG",
+    "latitude": -19.9133897,
+    "longitude": -43.9981353,
+    "created_at": "2020-02-01T21:14:23.220Z",
+    "updated_at": "2020-02-01T21:14:23.220Z"
+  },
+  {
+    "id": 46,
+    "address": "R. das Violas, Belo Horizonte - MG",
+    "latitude": -19.9208681,
+    "longitude": -44.0108971,
+    "created_at": "2020-02-01T21:14:23.226Z",
+    "updated_at": "2020-02-01T21:14:23.226Z"
+  },
+  {
+    "id": 47,
+    "address": "R. Maria José de Jesus - Camargos, Belo Horizonte - MG",
+    "latitude": -19.9368778,
+    "longitude": -44.0257721,
+    "created_at": "2020-02-01T21:14:23.232Z",
+    "updated_at": "2020-02-01T21:14:23.232Z"
+  },
+  {
+    "id": 48,
+    "address": "Vila Oeste, Belo Horizonte - MG",
+    "latitude": -19.9372867,
+    "longitude": -44.0046646,
+    "created_at": "2020-02-01T21:14:23.238Z",
+    "updated_at": "2020-02-01T21:14:23.238Z"
+  },
+  {
+    "id": 49,
+    "address": "Av. Tereza Cristina - Prado, Belo Horizonte - MG",
+    "latitude": -19.9172481,
+    "longitude": -43.9673088,
+    "created_at": "2020-02-01T21:14:23.245Z",
+    "updated_at": "2020-02-01T21:14:23.245Z"
+  },
+  {
+    "id": 50,
+    "address": "Av. Palestina - Me. Gertrudes, Belo Horizonte - MG",
+    "latitude": -19.9510733,
+    "longitude": -44.0112358,
+    "created_at": "2020-02-01T21:14:23.251Z",
+    "updated_at": "2020-02-01T21:14:23.251Z"
+  },
+  {
+    "id": 51,
+    "address": "Rua Estrada do Cercadinho - Jardim America, Belo Horizonte - MG, 30421-565",
+    "latitude": -19.9486129,
+    "longitude": -43.9764468,
+    "created_at": "2020-02-01T21:14:23.257Z",
+    "updated_at": "2020-02-01T21:14:23.257Z"
+  },
+  {
+    "id": 52,
+    "address": "Av. Gov. Benedicto Valadares - Vila Oeste, Belo Horizonte - MG, 31250-530",
+    "latitude": -19.9379103,
+    "longitude": -44.0035727,
+    "created_at": "2020-02-01T21:14:23.263Z",
+    "updated_at": "2020-02-01T21:14:23.263Z"
+  },
+  {
+    "id": 53,
+    "address": "Av. Francisco Sá - Gutierrez, Belo Horizonte - MG",
+    "latitude": -19.93234,
+    "longitude": -43.9609978,
+    "created_at": "2020-02-01T21:14:23.268Z",
+    "updated_at": "2020-02-01T21:14:23.268Z"
+  },
+  {
+    "id": 54,
+    "address": "R. Erê - Prado, Belo Horizonte - MG",
+    "latitude": -19.9221869,
+    "longitude": -43.9610738,
+    "created_at": "2020-02-01T21:14:23.274Z",
+    "updated_at": "2020-02-01T21:14:23.274Z"
+  },
+  {
+    "id": 55,
+    "address": "R. Coruripe - Nova Granada, Belo Horizonte - MG",
+    "latitude": -19.9381815,
+    "longitude": -43.9729435,
+    "created_at": "2020-02-01T21:14:23.280Z",
+    "updated_at": "2020-02-01T21:14:23.280Z"
+  },
+  {
+    "id": 56,
+    "address": "R. Ituiutaba - Prado, Belo Horizonte - MG",
+    "latitude": -19.9196591,
+    "longitude": -43.961521,
+    "created_at": "2020-02-01T21:14:23.285Z",
+    "updated_at": "2020-02-01T21:14:23.285Z"
+  },
+  {
+    "id": 57,
+    "address": "Av. Silva Lobo - Calafate, Belo Horizonte - MG",
+    "latitude": -19.9278383,
+    "longitude": -43.973984,
+    "created_at": "2020-02-01T21:14:23.291Z",
+    "updated_at": "2020-02-01T21:14:23.291Z"
+  },
+  {
+    "id": 58,
+    "address": "Av. Barão Homem de Melo - Nova Granada, Belo Horizonte - MG",
+    "latitude": -19.941586,
+    "longitude": -43.9734027,
+    "created_at": "2020-02-01T21:14:23.299Z",
+    "updated_at": "2020-02-01T21:14:23.299Z"
+  },
+  {
+    "id": 59,
+    "address": "Fazenda Velha - Jardim Felicidade, Belo Horizonte - MG, 31742-406",
+    "latitude": -19.8235721,
+    "longitude": -43.9322227,
+    "created_at": "2020-02-01T21:14:23.306Z",
+    "updated_at": "2020-02-01T21:14:23.306Z"
+  },
+  {
+    "id": 60,
+    "address": "Novo Aarão Reis, Belo Horizonte - MG",
+    "latitude": -19.8405148,
+    "longitude": -43.9126993,
+    "created_at": "2020-02-01T21:14:23.313Z",
+    "updated_at": "2020-02-01T21:14:23.313Z"
+  },
+  {
+    "id": 61,
+    "address": "Rua Antônio Ribeiro de Abreu - Ribeiro de Abreu, Belo Horizonte - MG",
+    "latitude": -19.833275,
+    "longitude": -43.9058083,
+    "created_at": "2020-02-01T21:14:23.318Z",
+    "updated_at": "2020-02-01T21:14:23.318Z"
+  },
+  {
+    "id": 62,
+    "address": "Av. Bernardo de Vasconcelos, Belo Horizonte - MG",
+    "latitude": -19.8832101,
+    "longitude": -43.9422011,
+    "created_at": "2020-02-01T21:14:23.324Z",
+    "updated_at": "2020-02-01T21:14:23.324Z"
+  },
+  {
+    "id": 63,
+    "address": "R. Santa Úrsula - Ouro Minas, Belo Horizonte - MG, 31870-360",
+    "latitude": -19.8435129,
+    "longitude": -43.9088173,
+    "created_at": "2020-02-01T21:14:23.331Z",
+    "updated_at": "2020-02-01T21:14:23.331Z"
+  },
+  {
+    "id": 64,
+    "address": "Ribeiro de Abreu, Belo Horizonte - MG",
+    "latitude": -19.8290816,
+    "longitude": -43.9168255,
+    "created_at": "2020-02-01T21:14:23.337Z",
+    "updated_at": "2020-02-01T21:14:23.337Z"
+  },
+  {
+    "id": 65,
+    "address": "R. dos Limões - Maria Goretti, Belo Horizonte - MG",
+    "latitude": -19.8602837,
+    "longitude": -43.9080067,
+    "created_at": "2020-02-01T21:14:23.343Z",
+    "updated_at": "2020-02-01T21:14:23.343Z"
+  },
+  {
+    "id": 66,
+    "address": "Córrego Gordura",
+    "latitude": -20.0365899,
+    "longitude": -43.9286905,
+    "created_at": "2020-02-01T21:14:23.351Z",
+    "updated_at": "2020-02-01T21:14:23.351Z"
+  },
+  {
+    "id": 67,
+    "address": "R. Osmar Costa - Heliópolis, Belo Horizonte - MG",
+    "latitude": -19.843804,
+    "longitude": -43.9413348,
+    "created_at": "2020-02-01T21:14:23.358Z",
+    "updated_at": "2020-02-01T21:14:23.358Z"
+  },
+  {
+    "id": 68,
+    "address": "Av. Sanitária - Miramar (Barreiro), Belo Horizonte - MG, 30620-330",
+    "latitude": -19.9943631,
+    "longitude": -44.0100091,
+    "created_at": "2020-02-01T21:14:23.369Z",
+    "updated_at": "2020-02-01T21:14:23.369Z"
+  },
+  {
+    "id": 69,
+    "address": "R. Maria Carmem Valadares, Belo Horizonte - MG",
+    "latitude": -19.9301211,
+    "longitude": -43.912824,
+    "created_at": "2020-02-01T21:14:23.375Z",
+    "updated_at": "2020-02-01T21:14:23.375Z"
+  },
+  {
+    "id": 70,
+    "address": "Córrego São Geraldo bh",
+    "latitude": -19.8963304,
+    "longitude": -43.9004491,
+    "created_at": "2020-02-01T21:14:23.381Z",
+    "updated_at": "2020-02-01T21:14:23.381Z"
+  },
+  {
+    "id": 71,
+    "address": "R. Pitangui - Concórdia, Belo Horizonte - MG",
+    "latitude": -19.9037878,
+    "longitude": -43.9432086,
+    "created_at": "2020-02-01T21:14:23.388Z",
+    "updated_at": "2020-02-01T21:14:23.388Z"
+  },
+  {
+    "id": 72,
+    "address": "Av. Silviano Brandão, Belo Horizonte - MG",
+    "latitude": -19.9115606,
+    "longitude": -43.9227387,
+    "created_at": "2020-02-01T21:14:23.393Z",
+    "updated_at": "2020-02-01T21:14:23.393Z"
+  },
+  {
+    "id": 73,
+    "address": "Av. Prudente de Morais, Belo Horizonte - MG",
+    "latitude": -19.9431712,
+    "longitude": -43.950752,
+    "created_at": "2020-02-01T21:14:23.400Z",
+    "updated_at": "2020-02-01T21:14:23.400Z"
+  },
+  {
+    "id": 74,
+    "address": "R. Joaquim Murtinho, Belo Horizonte - MG, 30110-051",
+    "latitude": -19.9384576,
+    "longitude": -43.947784,
+    "created_at": "2020-02-01T21:14:23.411Z",
+    "updated_at": "2020-02-01T21:14:23.411Z"
+  },
+  {
+    "id": 75,
+    "address": "Praça Marília de Dirceu",
+    "latitude": -19.933773,
+    "longitude": -43.9477718,
+    "created_at": "2020-02-01T21:14:23.420Z",
+    "updated_at": "2020-02-01T21:14:23.420Z"
+  },
+  {
+    "id": 76,
+    "address": "rua Bárbara Heliodora",
+    "latitude": -21.7169791,
+    "longitude": -47.5635548,
+    "created_at": "2020-02-01T21:14:23.430Z",
+    "updated_at": "2020-02-01T21:14:23.430Z"
+  },
+  {
+    "id": 77,
+    "address": "R. Córrego da Mata, Belo Horizonte - MG",
+    "latitude": -19.9110257,
+    "longitude": -43.9220362,
+    "created_at": "2020-02-01T21:14:23.436Z",
+    "updated_at": "2020-02-01T21:14:23.436Z"
+  },
+  {
+    "id": 78,
+    "address": "R. Monte Alegre, Belo Horizonte - MG",
+    "latitude": -19.9335752,
+    "longitude": -43.9233981,
+    "created_at": "2020-02-01T21:14:23.442Z",
+    "updated_at": "2020-02-01T21:14:23.442Z"
+  },
+  {
+    "id": 79,
+    "address": "Rua Edgard Coelho - Serra, Belo Horizonte - MG, 30110-921",
+    "latitude": -19.9353906,
+    "longitude": -43.9262842,
+    "created_at": "2020-02-01T21:14:23.448Z",
+    "updated_at": "2020-02-01T21:14:23.448Z"
+  },
+  {
+    "id": 80,
+    "address": "R. Mato Grosso, Belo Horizonte - MG",
+    "latitude": -19.923634,
+    "longitude": -43.9503366,
+    "created_at": "2020-02-01T21:14:23.455Z",
+    "updated_at": "2020-02-01T21:14:23.455Z"
+  },
+  {
+    "id": 81,
+    "address": "Rua dos Tamôios - Centro, Belo Horizonte - MG, 30120-050",
+    "latitude": -19.9195453,
+    "longitude": -43.9443788,
+    "created_at": "2020-02-01T21:14:23.461Z",
+    "updated_at": "2020-02-01T21:14:23.461Z"
+  },
+  {
+    "id": 82,
+    "address": "Av. Tereza Cristina, Minas Gerais",
+    "latitude": -19.956655,
+    "longitude": -43.9938948,
+    "created_at": "2020-02-01T21:14:23.471Z",
+    "updated_at": "2020-02-01T21:14:23.471Z"
+  },
+  {
+    "id": 83,
+    "address": "Santana do Cafezal, Belo Horizonte - MG",
+    "latitude": -19.9349924,
+    "longitude": -43.9118012,
+    "created_at": "2020-02-01T21:14:23.477Z",
+    "updated_at": "2020-02-01T21:14:23.477Z"
+  },
+  {
+    "id": 84,
+    "address": "Olaria, Belo Horizonte - MG",
+    "latitude": -19.9908878,
+    "longitude": -44.0322387,
+    "created_at": "2020-02-01T21:14:23.484Z",
+    "updated_at": "2020-02-01T21:14:23.484Z"
+  },
+  {
+    "id": 85,
+    "address": "Estr. Córrego Jatobá, Manhuaçu - MG, 36900-000",
+    "latitude": -20.277936,
+    "longitude": -42.1883205,
+    "created_at": "2020-02-01T21:14:23.495Z",
+    "updated_at": "2020-02-01T21:14:23.495Z"
+  },
+  {
+    "id": 86,
+    "address": "Corrego Bonsucesso Igreja Missionaria Filadelfia",
+    "latitude": -20.4603553,
+    "longitude": -42.1494357,
+    "created_at": "2020-02-01T21:14:23.504Z",
+    "updated_at": "2020-02-01T21:14:23.504Z"
+  },
+  {
+    "id": 87,
+    "address": "Barreiro, Belo Horizonte - MG",
+    "latitude": -19.9776403,
+    "longitude": -44.0238162,
+    "created_at": "2020-02-01T21:14:23.511Z",
+    "updated_at": "2020-02-01T21:14:23.511Z"
+  },
+  {
+    "id": 88,
+    "address": "Av. Senador Levindo Coelho, Belo Horizonte - MG",
+    "latitude": -20.0036843,
+    "longitude": -44.0374571,
+    "created_at": "2020-02-01T21:14:23.518Z",
+    "updated_at": "2020-02-01T21:14:23.518Z"
+  },
+  {
+    "id": 89,
+    "address": "Av. do Canal, Belo Horizonte - MG",
+    "latitude": -19.9797786,
+    "longitude": -44.0335047,
+    "created_at": "2020-02-01T21:14:23.529Z",
+    "updated_at": "2020-02-01T21:14:23.529Z"
+  },
+  {
+    "id": 90,
+    "address": "Av. Olinto Meireles, Minas Gerais",
+    "latitude": -19.9826318,
+    "longitude": -44.0122607,
+    "created_at": "2020-02-01T21:14:23.546Z",
+    "updated_at": "2020-02-01T21:14:23.546Z"
+  }
+]
