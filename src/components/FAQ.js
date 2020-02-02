@@ -24,6 +24,7 @@ class FAQ extends React.Component {
 
   render() {
     const { questionList } = this.props;
+    console.log(questionList)
     const { select } = this.state;
     const filterQuestion = (select)&&(questionList.filter((question) => question.tag === select));
     return (
