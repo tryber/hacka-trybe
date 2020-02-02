@@ -96,7 +96,7 @@ class MapInputs extends React.Component {
           value="shelters"
           id="shelters"
         />
-        <label htmlFor="shelters">Abrigos</label>
+        <label htmlFor="shelters">Auxílio</label>
       </div>
     );
   }
