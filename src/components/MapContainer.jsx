@@ -67,7 +67,7 @@ export class MapContainer extends React.Component {
       if (phone) {
       return `${name} \n ${address} \n Telefone: ${phone}`;
       } else {
-        return name + ' - ' + address;
+        return `${name} \n ${address}`;
       }
     }
     return address;
