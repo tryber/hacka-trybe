@@ -1,4 +1,5 @@
 import React from 'react';
+import Geocode from 'react-geocode';
 import MapContainer from './MapContainer';
 import { MapContext } from './context/MapContext';
 
@@ -6,7 +7,7 @@ class MapInputs extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      filter: '',
+      filter: 'donations',
       data: [],
       userAddress: '',
       endpoint: '',
@@ -17,8 +18,24 @@ class MapInputs extends React.Component {
     return fetch(
       `https://hackatrybe.herokuapp.com/${param}${endpoint}`,
     ).then((data) =>
-      data.json().then((response) => this.setState({ data: response })),
+      data.json().then((response) => this.changeDataState(response, endpoint)),
     );
+  }
+
+  changeDataState(response, endpoint) {
+    this.setState({ data: response });
+    if(endpoint !== '') {
+        Geocode.setApiKey('AIzaSyDg2CCtZwxt0DZXmOtT2rK4oBKzUNkfGok');
+        Geocode.fromAddress(this.state.userAddress).then(
+          (response) => {
+            const { lat, lng } = response.results[0].geometry.location;
+            this.context.setGeolocationEndpoint({ lat, lng });
+          },
+          (error) => {
+            console.log(error);
+          },
+        );
+    }
   }
 
   changeHandler(event) {

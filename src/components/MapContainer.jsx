@@ -29,13 +29,22 @@ export class MapContainer extends React.Component {
   };
 
   geoLocation(context) {
-    if (context.length > 0) {
-      return context;
+    if (context.geolocationEndpoint) {
+      console.log('passou no endpoint')
+      return {
+        latitude: context.geolocationEndpoint.lat,
+        longitude: context.geolocationEndpoint.lng,
+      };
+    }
+    if (context.geolocation.latitude) {
+      return context.geolocation;
     }
     return { latitude: '-19.932449', longitude: '-43.939003' };
   }
   render() {
-    const geolocation = this.geoLocation(this.context.geolocation);
+    // console.log(this.context.geolocation)
+    const geolocation = this.geoLocation(this.context);
+    console.log(geolocation);
     return (
       <div>
         <Map
