@@ -4,10 +4,10 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import './App.css';
 import { Provider } from './components/context/MapContext';
 import MapInputs from './components/MapInputs';
 import Geolocation from './components/Geolocation';
+import './App.css';
 
 function App() {
   return (
@@ -18,6 +18,9 @@ function App() {
             <MapInputs />
             <Geolocation />
           </Route>
+          <Route path="/faq" component={"<component />"} />
+          <Route path="/info:id" component={"<component />"} />
+          <Route path="/about-us" component={"<component />"} />
         </Switch>
       </Router>
     </Provider>
