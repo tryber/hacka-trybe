@@ -1,0 +1,23 @@
+.questions-question {
+  height: 75.23px;
+  left: 27.22%;
+  right: 20.56%;
+  top: calc(50% - 75.23px/2 - 345.38px);
+
+  background: #F6F8F8;
+  border-radius: 3.16052px;
+}
+
+.questions-question label {
+height: 40px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 27.4649px;
+line-height: 32px;
+
+color: #FC1055;
+
+
+}

@@ -4,9 +4,12 @@
 }
 
 .faq-page .question-list {
-  width: 60%;
+  width: 50%;
 }
 
 .faq-page .list-filter {
+  margin-left: 16px;
+  margin-top: 129px;
   width: 30%;
 }
+
