@@ -29,11 +29,10 @@ export class MapContainer extends React.Component {
   };
 
   geoLocation(context) {
-    if (context.geolocationEndpoint) {
-      console.log('passou no endpoint')
+    if (this.props.addressGeolocation !== '') {
       return {
-        latitude: context.geolocationEndpoint.lat,
-        longitude: context.geolocationEndpoint.lng,
+        latitude: this.props.addressGeolocation.lat,
+        longitude: this.props.addressGeolocation.lng,
       };
     }
     if (context.geolocation.latitude) {
@@ -42,13 +41,11 @@ export class MapContainer extends React.Component {
     return { latitude: '-19.932449', longitude: '-43.939003' };
   }
   render() {
-    // console.log(this.context.geolocation)
     const geolocation = this.geoLocation(this.context);
-    console.log(geolocation);
     return (
       <div>
         <Map
-          initialCenter={{
+          center={{
             lat: geolocation.latitude,
             lng: geolocation.longitude,
           }}

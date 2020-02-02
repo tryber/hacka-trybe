@@ -11,6 +11,7 @@ class MapInputs extends React.Component {
       data: [],
       userAddress: '',
       endpoint: '',
+      addressGeolocation: '',
     };
   }
 
@@ -24,17 +25,17 @@ class MapInputs extends React.Component {
 
   changeDataState(response, endpoint) {
     this.setState({ data: response });
-    if(endpoint !== '') {
-        Geocode.setApiKey('AIzaSyDg2CCtZwxt0DZXmOtT2rK4oBKzUNkfGok');
-        Geocode.fromAddress(this.state.userAddress).then(
-          (response) => {
-            const { lat, lng } = response.results[0].geometry.location;
-            this.context.setGeolocationEndpoint({ lat, lng });
-          },
-          (error) => {
-            console.log(error);
-          },
-        );
+    if (endpoint !== '') {
+      Geocode.setApiKey('AIzaSyDg2CCtZwxt0DZXmOtT2rK4oBKzUNkfGok');
+      Geocode.fromAddress(this.state.userAddress).then(
+        (response) => {
+          const { lat, lng } = response.results[0].geometry.location;
+          this.setState({ addressGeolocation: { lat, lng } });
+        },
+        (error) => {
+          console.log(error);
+        },
+      );
     }
   }
 
@@ -105,7 +106,7 @@ class MapInputs extends React.Component {
       <div>
         {this.generateInputs()}
         {this.generateButtonOfSearch()}
-        <MapContainer data={this.state.data} />
+        <MapContainer data={this.state.data} addressGeolocation={this.state.addressGeolocation} />
       </div>
     );
   }
