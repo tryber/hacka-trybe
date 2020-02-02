@@ -1,3 +1,11 @@
+.inputs-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+}
+
 .btn-type {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
@@ -6,11 +14,24 @@
   color: #bdbdbd;
   background-color: #fff;
   padding: 10px 30px;
-  margin: 5px;
   border: none;
   border-radius: 25px;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn-search {
+  background-color: #fff;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.btn-type:not(:first-child):not(:last-child) {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .btn-type:hover {
@@ -18,10 +39,22 @@
   cursor: pointer;
 }
 
+.btn-search:hover {
+  color: #FC1055;
+  cursor: pointer;
+}
+
 .btn-type-group {
-  padding: 15px 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-group {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-right: 20px;
 }
 
 .search-input {
@@ -32,11 +65,9 @@
   color: #bdbdbd;
   background-color: #fff;
   padding: 5px 10px;
-  margin: 5px;
   border: none;
   border-radius: 25px;
-  width: 30em;
-  margin-left: 60px;
+  margin-bottom: 20px;
 }
 
 .icon {
@@ -45,4 +76,8 @@
 
 .active {
   color: #FC1055;
+}
+
+button > * {
+  pointer-events: none;
 }
