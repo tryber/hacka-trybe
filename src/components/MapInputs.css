@@ -2,6 +2,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 15px 30px;
 }
@@ -29,7 +30,7 @@
   margin-bottom: 20px;
 }
 
-.btn-type:not(:first-child):not(:last-child) {
+.btn-type:nth-last-child(2) {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -80,4 +81,13 @@
 
 button > * {
   pointer-events: none;
+}
+
+.map-buttons {
+  display: flex;
+}
+
+.about-us-btn {
+  text-decoration: none;
+  margin-right: 30px;
 }

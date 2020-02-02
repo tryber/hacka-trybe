@@ -1,10 +1,12 @@
 import React from 'react';
 import Geocode from 'react-geocode';
+import { Link } from 'react-router-dom';
 import MapContainer from './MapContainer';
 import { MapContext } from './context/MapContext';
 import FloodIcon from './icons/FloodIcon';
 import ShelterIcon from './icons/ShelterIcon';
 import DonationIcon from './icons/DonationIcon';
+import AboutIcon from './icons/AboutIcon';
 import './MapInputs.css';
 
 class MapInputs extends React.Component {
@@ -141,8 +143,15 @@ class MapInputs extends React.Component {
           addressGeolocation={this.state.addressGeolocation}
         />
         <div className="inputs-group">
-          {this.generateButtonOfSearch()}
-          {this.generateInputs()}
+          <div className="map-buttons">
+            {this.generateButtonOfSearch()}
+            {this.generateInputs()}
+          </div>
+          <Link className="about-us-btn" to={'/about-us'}>
+          <button className="btn-type">
+            <AboutIcon /> Sobre nós
+          </button>
+        </Link>
         </div>
       </div>
     );
