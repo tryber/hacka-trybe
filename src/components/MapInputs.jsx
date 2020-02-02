@@ -2,6 +2,10 @@ import React from 'react';
 import Geocode from 'react-geocode';
 import MapContainer from './MapContainer';
 import { MapContext } from './context/MapContext';
+import FloodIcon from './icons/FloodIcon';
+import ShelterIcon from './icons/ShelterIcon';
+import DonationIcon from './icons/DonationIcon';
+import './MapInputs.css';
 
 class MapInputs extends React.Component {
   constructor(props) {
@@ -12,30 +16,42 @@ class MapInputs extends React.Component {
       userAddress: '',
       endpoint: '',
       addressGeolocation: '',
-      timeout:  0,
+      timeout: 0,
+      fullData: {},
+      shouldRender: true,
     };
   }
 
-  requestAPI(param, endpoint = '') {
-    return fetch(
-      `https://hackatrybe.herokuapp.com/${param}${endpoint}`,
-    ).then((data) =>
-      data.json().then((response) => this.changeDataState(response, endpoint)),
+  requestAPI(param, bol) {
+    return fetch(`https://hackatrybe.herokuapp.com/${param}`).then((data) =>
+      data.json().then((response) => this.changeDataset(param, response, bol)),
     );
   }
-
-  doSearch(evt){
-    this.setState({userAddress: evt.target.value});
-    if(this.timeout) clearTimeout(this.timeout);
+  doSearch(evt) {
+    this.setState({ shouldRender: false });
+    this.setState({ userAddress: evt.target.value });
+    if (this.timeout) clearTimeout(this.timeout);
     this.timeout = setTimeout(() => {
+      this.setState({ shouldRender: true });
       this.sendAPIAddress();
     }, 1500);
   }
 
+  changeDataset(param, response, bol) {
+    if (bol) {
+      this.setState({ [param]: response, data: response });
+    } else {
+      this.setState({ [param]: response });
+    }
+  }
 
-
-  changeDataState(response, endpoint) {
-    this.setState({ data: response });
+  shouldComponentUpdate() {
+    if (this.state.shouldRender) {
+      return true;
+    }
+    return false;
+  }
+  changeDataState(endpoint) {
     if (endpoint !== '') {
       Geocode.setApiKey('AIzaSyDg2CCtZwxt0DZXmOtT2rK4oBKzUNkfGok');
       Geocode.fromAddress(this.state.userAddress).then(
@@ -51,63 +67,67 @@ class MapInputs extends React.Component {
   }
 
   changeHandler(event) {
-    this.setState({ filter: event.target.value });
-    this.requestAPI(event.target.value);
+    this.setState({
+      filter: event.target.value,
+      data: this.state[event.target.value],
+    });
   }
 
   componentDidMount() {
-    this.requestAPI('donations');
+    this.requestAPI('donations', true);
+    this.requestAPI('shelters', false);
+    this.requestAPI('floods', false);
   }
 
   sendAPIAddress() {
     if (this.state.userAddress !== '') {
-      this.setState({ endpoint: `?s=${this.state.userAddress}` });
-      this.requestAPI(this.state.filter, `?s=${this.state.userAddress}`);
+      this.changeDataState(this.state.userAddress);
     }
     return this.setState({ endpoint: '' });
   }
 
   generateButtonOfSearch() {
     return (
-      <div>
+      <div className="search-group">
         <input
+          className="search-input"
           type="text"
           placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
-          onChange={evt => this.doSearch(evt)}
+          onChange={(evt) => this.doSearch(evt)}
         />
-        {/* <button type="button" onClick={() => this.sendAPIAddress()}>
-          Pesquisar
-        </button> */}
       </div>
     );
   }
   generateInputs() {
     return (
-      <div>
-        <input
-          type="radio"
-          onChange={(e) => this.changeHandler(e)}
-          name="typeFilter"
+      <div className="btn-type-group">
+        <button
+          className={
+            'btn-type ' + (this.state.filter === 'donations' ? 'active' : '')
+          }
           value="donations"
-          id="donations"
-        />
-        <label htmlFor="donations">Doações</label>
-        <input
-          type="radio"
-          onChange={(e) => this.changeHandler(e)}
-          name="typeFilter"
+          onClick={(e) => this.changeHandler(e)}
+        >
+          <DonationIcon /> Doações
+        </button>
+        <button
+          className={
+            'btn-type ' + (this.state.filter === 'floods' ? 'active' : '')
+          }
           value="floods"
-          id="floods"
-        />
-        <label htmlFor="floods">Alagamentos</label>
-        <input
-          type="radio"
-          onChange={(e) => this.changeHandler(e)}
-          name="typeFilter"
+          onClick={(e) => this.changeHandler(e)}
+        >
+          <FloodIcon /> Alagamentos
+        </button>
+        <button
+          className={
+            'btn-type ' + (this.state.filter === 'shelters' ? 'active' : '')
+          }
           value="shelters"
-          id="shelters"
-        />
-        <label htmlFor="shelters">Auxílio</label>
+          onClick={(e) => this.changeHandler(e)}
+        >
+          <ShelterIcon /> Abrigos
+        </button>
       </div>
     );
   }
@@ -115,9 +135,15 @@ class MapInputs extends React.Component {
   render() {
     return (
       <div>
-        {this.generateInputs()}
-        {this.generateButtonOfSearch()}
-        <MapContainer data={this.state.data} addressGeolocation={this.state.addressGeolocation} />
+        <MapContainer
+          data={this.state.data}
+          filter={this.state.filter}
+          addressGeolocation={this.state.addressGeolocation}
+        />
+        <div className="inputs-group">
+          {this.generateButtonOfSearch()}
+          {this.generateInputs()}
+        </div>
       </div>
     );
   }

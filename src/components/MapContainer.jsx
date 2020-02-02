@@ -1,6 +1,9 @@
 import React from 'react';
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 import { MapContext } from './context/MapContext';
+import shelters from './icons/shelter-map.png';
+import floods from './icons/flood-map.png';
+import donations from './icons/donation-map.png';
 
 export class MapContainer extends React.Component {
   constructor(props) {
@@ -11,6 +14,14 @@ export class MapContainer extends React.Component {
       selectedPlace: {},
       location: '',
     };
+  }
+
+  getMarkerIcon(filter) {
+    return {
+      shelters,
+      floods,
+      donations,
+    }[filter];
   }
 
   onMarkerClick = (props, marker, e) =>
@@ -33,7 +44,10 @@ export class MapContainer extends React.Component {
 
   geoLocation(context) {
     if (this.state.location !== '') {
-      return this.state.location;
+      return {
+        latitude: this.state.location.lat,
+        longitude: this.state.location.lng,
+      };
     }
     if (this.props.addressGeolocation !== '') {
       return {
@@ -46,40 +60,46 @@ export class MapContainer extends React.Component {
     }
     return { latitude: '-19.932449', longitude: '-43.939003' };
   }
+
   render() {
     const geolocation = this.geoLocation(this.context);
     return (
       <div>
         <Map
+          // initialCenter={{ latitude: '-19.932449', longitude: '-43.939003' }}
           center={{
             lat: geolocation.latitude,
             lng: geolocation.longitude,
           }}
-          style={{
-            width: '50%',
-            height: '50%',
-            position: 'relative',
-            margin: '10em',
-          }}
+          // style={{
+
+          // }}
           google={this.props.google}
           zoom={14}
           onClick={this.onMapClicked}
+          mapTypeControl={false}
         >
-          {this.props.data.map((point) => {
-            return (
-              <Marker
-                onClick={this.onMarkerClick}
-                key={point.updated_at}
-                title={point.address}
-                name={
-                  point.name
-                    ? point.name + ' - ' + point.address
-                    : point.address
-                }
-                position={{ lat: point.latitude, lng: point.longitude }}
-              />
-            );
-          })}
+          {this.props.data
+            ? this.props.data.map((point) => {
+                return (
+                  <Marker
+                    onClick={this.onMarkerClick}
+                    key={point.updated_at}
+                    title={point.address}
+                    name={
+                      point.name
+                        ? point.name + ' - ' + point.address
+                        : point.address
+                    }
+                    position={{ lat: point.latitude, lng: point.longitude }}
+                    icon={{
+                      url: this.getMarkerIcon(this.props.filter),
+                      scaledSize: this.props.google.maps.Size(5, 5),
+                    }}
+                  />
+                );
+              })
+            : null}
           <InfoWindow
             marker={this.state.activeMarker}
             visible={this.state.showingInfoWindow}

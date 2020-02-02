@@ -9,11 +9,11 @@ function Geolocation() {
         getGeolocationTrue(position.coords);
       },
       (error) => {
-        alert(error);
+        console.log(error);
       },
     );
   } else {
-    alert(
+    console.log(
       "I'm sorry, but geolocation services are not supported by your browser.",
     );
   }
