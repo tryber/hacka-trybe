@@ -1,12 +1,17 @@
 import React from 'react';
-import ImageNavDivis from './components/ImageNavDiv';
-import faqData from './components/faqData.js';
-import FAQ from './components/FAQ.js';
 import './App.css';
+import { Provider } from './components/context/MapContext';
+import MapInputs from './components/MapInputs';
+import Geolocation from './components/Geolocation';
+
 function App() {
   return (
     <div className="App">
-      <FAQ questionList={faqData}/>
+      <Provider>
+        {/* <InputSearch /> */}
+        <MapInputs />
+        <Geolocation />
+      </Provider>
     </div>
   );
 }
