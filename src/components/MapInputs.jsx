@@ -30,6 +30,10 @@ class MapInputs extends React.Component {
   doSearch(evt) {
     this.setState({ shouldRender: false });
     this.setState({ userAddress: evt.target.value });
+    if (evt.key === 'Enter') {
+      this.setState({ shouldRender: true });
+      return this.sendAPIAddress();
+    }
     if (this.timeout) clearTimeout(this.timeout);
     this.timeout = setTimeout(() => {
       this.setState({ shouldRender: true });
@@ -91,9 +95,9 @@ class MapInputs extends React.Component {
       <div className="search-group">
         <input
           className="search-input"
+          onKeyPress={(e) => this.doSearch(e)}
           type="text"
           placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
-          onChange={(evt) => this.doSearch(evt)}
         />
       </div>
     );
