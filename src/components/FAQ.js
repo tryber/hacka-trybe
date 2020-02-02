@@ -19,7 +19,6 @@ class FAQ extends React.Component {
   }
 
   changeIndexSelect = (value) => {
-    console.log(value)
     this.setState({ indexSelect: value })
   }
 
