@@ -4,6 +4,7 @@ import { MapContext } from './context/MapContext';
 import shelters from './icons/shelter-map.png';
 import floods from './icons/flood-map.png';
 import donations from './icons/donation-map.png';
+import './MapContainer.css';
 
 export class MapContainer extends React.Component {
   constructor(props) {
@@ -64,7 +65,7 @@ export class MapContainer extends React.Component {
   generateMarkerName(name, address, phone) {
     if (name) {
       if (phone) {
-      return `${name} \n ${address} Telefone: ${phone}`;
+      return `${name} \n ${address} \n Telefone: ${phone}`;
       } else {
         return name + ' - ' + address;
       }
