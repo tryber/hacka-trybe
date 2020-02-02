@@ -4,6 +4,7 @@ import { MapContext } from './context/MapContext';
 import shelters from './icons/shelter-map.png';
 import floods from './icons/flood-map.png';
 import donations from './icons/donation-map.png';
+import './MapContainer.css';
 
 export class MapContainer extends React.Component {
   constructor(props) {
@@ -61,12 +62,23 @@ export class MapContainer extends React.Component {
     return { latitude: '-19.932449', longitude: '-43.939003' };
   }
 
+  generateMarkerName(name, address, phone) {
+    if (name) {
+      if (phone) {
+      return `${name} \n ${address} \n Telefone: ${phone}`;
+      } else {
+        return `${name} \n ${address}`;
+      }
+    }
+    return address;
+  }
+
   render() {
+    console.log(this.props.data);
     const geolocation = this.geoLocation(this.context);
     return (
       <div>
         <Map
-          // initialCenter={{ latitude: '-19.932449', longitude: '-43.939003' }}
           center={{
             lat: geolocation.latitude,
             lng: geolocation.longitude,
@@ -83,13 +95,16 @@ export class MapContainer extends React.Component {
             ? this.props.data.map((point) => {
                 return (
                   <Marker
+                    // className=''
                     onClick={this.onMarkerClick}
                     key={point.updated_at}
                     title={point.address}
                     name={
-                      point.name
-                        ? point.name + ' - ' + point.address
-                        : point.address
+                      this.generateMarkerName(
+                        point.name,
+                        point.address,
+                        point.phone,
+                      )
                     }
                     position={{ lat: point.latitude, lng: point.longitude }}
                     icon={{

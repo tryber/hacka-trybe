@@ -36,7 +36,7 @@ class MapInputs extends React.Component {
     this.timeout = setTimeout(() => {
       this.setState({ shouldRender: true });
       this.sendAPIAddress();
-    }, 1500);
+    }, 1000);
   }
 
   changeDataset(param, response, bol) {
@@ -128,7 +128,7 @@ class MapInputs extends React.Component {
           value="shelters"
           onClick={(e) => this.changeHandler(e)}
         >
-          <ShelterIcon /> Abrigos
+          <ShelterIcon /> Auxílio
         </button>
       </div>
     );
