@@ -1,4 +1,4 @@
-label {
+.input-radio label {
   text-align: center;
   display: block;
   position: relative;
@@ -12,11 +12,11 @@ label {
 }
 
 
-.radiobtn {
+.input-radio .radiobtn {
   display: none;
 }
 
-.radiobtn:checked + label {
+.input-radio .radiobtn:checked + label {
   outline: 3px solid #FC1055;
   padding: 27px 72px 27px 72px;
 }
