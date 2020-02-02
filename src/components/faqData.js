@@ -1,53 +1,37 @@
 const faqData = [
   {
-    question: 'Quem somos e o que fazemos?',
-    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper in neque quis sodales. Donec quis ex quam. Aliquam a lorem vel purus ornare sodales. Sed ultrices lectus ex, ut condimentum purus varius vitae. Duis vitae arcu et nunc commodo laoreet. Pellentesque scelerisque mattis metus vitae semper. Vivamus sed bibendum lorem. Nunc vel massa mauris. Nulla rutrum elit in sem lacinia, nec rutrum nibh iaculis. Proin quis lorem eget massa pretium blandit. Ut cursus mattis ante vel bibendum. Aliquam ac efficitur eros.',
-    tag:'Dicas',
+    question: 'Como doar?',
+    answer: `Contribua com a Cruz Vermelha para ajudar as pessoas atingidas pelas chuvas de Belo Horizonte:
+    Banco do Brasil
+    Agência — 1607-1
+    Conta — 80.000-7 (FBB Enchentes MG)
+    CNPJ — 01.641.000/0001-33`,
+    tag:'Ajudar',
   },
   {
-    question: 'Lorem ipsum dolor sit amet?',
-    answer: 'Morbi pharetra, nisl in tempus rhoncus, enim risus tincidunt ligula, suscipit vestibulum metus tellus ut nulla. Aenean imperdiet ultrices semper. Morbi ligula velit, pharetra ac consectetur tempus, molestie in purus. Etiam tempor aliquam lacus vel porttitor. Duis ut turpis est. Vivamus velit tellus, ultricies vel elit nec, sagittis posuere nibh. Morbi gravida tellus nisi, eu viverra risus porta ac. Aliquam id felis in arcu sollicitudin semper a sed eros. Praesent a malesuada elit.',
-    tag:'Dicas',
+    question: 'De onde vêm os dados usados no site?',
+    answer: 'Os dados foram coletados manualmente pelos estudantes da Trybe no dia 01/02/2020 e fazem referência a zonas de risco e os CRAS de Belo Horizonte. Os mapas foram obtidos pelo site via API do Google.',
+    tag:'Dúvidas frequentes',
   },
   {
-    question: 'Proin ullamcorper in neque quis sodales?',
-    answer: 'Nam eleifend erat magna, et consequat metus vestibulum gravida. Fusce dignissim mollis ex, id luctus mauris efficitur id. Sed purus felis, efficitur non faucibus ac, congue quis nulla. Nunc nec ligula ac mi varius interdum. Pellentesque volutpat felis dui, at efficitur eros semper ac. Sed eu sollicitudin mauris. Phasellus sed ultrices justo. Nullam est ante, vehicula ac est ut, hendrerit vulputate turpis.',
-    tag:'Dicas',
+    question: 'Como vou saber qual é o endereço mais próximo da minha casa?',
+    answer: 'Ao inserir o endereço na nossa aplicação (ou permitindo acesso a localização do seu aparelho), o nosso site indicará o endereço mais próximo.',
+    tag:'Dúvidas frequentes',
   },
   {
-    question: 'Donec quis ex quamDicasDicasDicasDicasDicas?',
-    answer: 'Nam eleifend erat magna, et consequat metus vestibulum gravida. Fusce dignissim mollis ex, id luctus mauris efficitur id. Sed purus felis, efficitur non faucibus ac, congue quis nulla. Nunc nec ligula ac mi varius interdum. Pellentesque volutpat felis dui, at efficitur eros semper ac. Sed eu sollicitudin mauris. Phasellus sed ultrices justo. Nullam est ante, vehicula ac est ut, hendrerit vulputate turpis.',
-    tag:'Dicas',
+    question: 'Como habilitar minha localização atual?',
+    answer: 'Tanto no celular quanto no computador, o site emitirá um requisitando o acesso à sua localização.',
+    tag:'Dúvidas frequentes',
   },
   {
-    question: 'Maecenas ultricies dui eu nunc maximus tincidunt',
-    answer: 'Phasellus vitae condimentum sem. Vivamus in tempus urna. Maecenas erat sem, finibus at gravida ut, feugiat vehicula dolor. Pellentesque vehicula suscipit libero at ornare. Quisque erat felis, fringilla ac ultricies ullamcorper, efficitur id nunc.',
-    tag:'Outros',
+    question: 'Como pesquisar o abrigo mais próximo?',
+    answer: 'Você pode permitir o acesso à sua localização ou inserir seu endereço na parte de abrigos do site, que indicará o CRAS mais próximo.',
+    tag:'Dúvidas frequentes',
   },
   {
-    question: 'Phasellus et suscipit lacus?',
-    answer: 'Etiam tempor aliquam lacus vel porttitor. Duis ut turpis est. Vivamus velit tellus, ultricies vel elit nec, sagittis posuere nibh. Morbi gravida tellus nisi, eu viverra risus porta ac. Aliquam id felis in arcu sollicitudin semper a sed eros. Praesent a malesuada elit.',
-    tag:'AJudar',
-  },
-  {
-    question: 'Aliquam erat volutpat?',
-    answer: 'Nam eleifend erat magna, et consequat metus vestibulum gravida. Fusce dignissim mollis ex, id luctus mauris efficitur id. Sed purus felis, efficitur non faucibus ac, congue quis nulla. Nunc nec ligula ac mi varius interdum.',
-    tag:'Juridico',
-  },
-  {
-    question: 'Etiam suscipit sapien et sodales ullamcorper?',
-    answer: 'Etiam suscipit sapien et sodales ullamcorper. Pellentesque urna augue, fermentum quis orci nec, ultrices bibendum dui. Nam eget ullamcorper sapien, a tincidunt nulla. Aliquam erat volutpat. Curabitur vitae pellentesque metus, non consectetur metus. Praesent sit amet tortor in justo egestas condimentum vitae eu turpis.',
-    tag:'Prevenção',
-  },
-  {
-    question: 'Sed consequat risus vitae pharetra laoreet?',
-    answer: 'Nulla dignissim rhoncus euismod. Aenean sit amet velit quis augue dapibus auctor. Sed tincidunt urna in ligula semper congue. Integer aliquam, nisi at tincidunt pulvinar, ante urna lobortis augue, nec gravida eros erat pellentesque nunc. Morbi fermentum, erat sed luctus euismod, neque nulla convallis justo, eget vestibulum enim dui vitae nibh.',
-    tag:'Causas',
-  },
-  {
-    question: 'Praesent a malesuada elit?',
-    answer: 'Etiam suscipit sapien et sodales ullamcorper. Pellentesque urna augue, fermentum quis orci nec, ultrices bibendum dui. Nam eget ullamcorper sapien, a tincidunt nulla. Aliquam erat volutpat. Curabitur vitae pellentesque metus, non consectetur metus. Praesent sit amet tortor in justo egestas condimentum vitae eu turpis.',
-    tag:'O que fazer?',
+    question: 'Caso eu não consiga achar o local, como proceder?',
+    answer: 'A pesquisa no Google e a Defesa Civil são os meios mais aptos a te ajudar caso não consiga achar o local.',
+    tag:'Dúvidas frequentes',
   }
 ]
 

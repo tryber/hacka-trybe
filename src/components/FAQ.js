@@ -1,13 +1,13 @@
 import React from 'react';
 import FAQquestion from './FAQquestion';
-import ListFilter from './ListFilter';
-import './FAQ.css'
+import ListFilterFAQ from './ListFilterFAQ';
+import './FAQ.css';
 
 class FAQ extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      select: 'Dicas',
+      select: 'Ajudar',
       indexSelect: 0,
     }
     this.changeSelect = this.changeSelect.bind(this);
@@ -35,11 +35,13 @@ class FAQ extends React.Component {
     const { select, indexSelect } = this.state;
     const filterQuestion = (select) && (questionList.filter((question) => question.tag === select));
     return (
-      <div className="faq-page">
-        <div className="list-filter">
-          <ListFilter select={select} changeSelectedFilter={(value) => this.changeSelect(value)} />
+      <div>
+        <div className="faq-page">
+          <div className="list-filter">
+            <ListFilterFAQ select={select} changeSelectedFilter={(value) => this.changeSelect(value)} />
+          </div>
+          {select && this.renderQuestion(filterQuestion, indexSelect)}
         </div>
-        {select && this.renderQuestion(filterQuestion, indexSelect)}
       </div>
     );
   }

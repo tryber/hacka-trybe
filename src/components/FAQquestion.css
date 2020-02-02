@@ -1,8 +1,8 @@
-.question-list {
+.FAQquestion .question-list {
   margin-top: 110px;
 }
 
-.questions-question {
+.FAQquestion .questions-question {
   text-align: center;
   margin-top: 10px;
   padding: 20px;
@@ -14,7 +14,7 @@
   margin-bottom: 0;
 }
 
-.questions-question label {
+.FAQquestion .questions-question label {
   height: 40px;
   font-family: Work Sans;
   font-style: normal;
@@ -26,7 +26,7 @@
 }
 
 
-.questions-answer{
+.FAQquestion .questions-answer{
   left: 28.82%;
   right: 22.22%;
   font-family: Work Sans;

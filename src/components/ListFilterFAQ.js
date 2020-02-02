@@ -2,11 +2,11 @@ import React from 'react';
 import Filter from './Filter.js'
 import './Filter.css'
 
-class ListFilter extends React.Component {
+class ListFilterFAQ extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      categories: ['Dicas', 'O que fazer?', 'Causas', 'Prevenção', 'Juridico', 'Ajudar', 'Outros', ],
+      categories: ['Ajudar', 'Dúvidas frequentes', ],
     };
   }
 
@@ -21,4 +21,4 @@ class ListFilter extends React.Component {
   }
 }
 
-export default ListFilter;
+export default ListFilterFAQ;
