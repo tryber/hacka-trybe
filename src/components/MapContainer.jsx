@@ -66,7 +66,6 @@ export class MapContainer extends React.Component {
     return (
       <div>
         <Map
-          // initialCenter={{ latitude: '-19.932449', longitude: '-43.939003' }}
           center={{
             lat: geolocation.latitude,
             lng: geolocation.longitude,
