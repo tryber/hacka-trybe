@@ -1,10 +1,10 @@
 import React from 'react';
 
-class Header extends React.Component {
+class TitlePost extends React.Component {
   render() {
     const { category } = this.props;
     return (
-      <div className="Header">
+      <div className="TitlePost">
         <div className="line-header">
           <div className="top">
             <h3>AjudaBH <span className="compartilhou">compartilhou</span> event</h3>
@@ -17,4 +17,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default TitlePost;
