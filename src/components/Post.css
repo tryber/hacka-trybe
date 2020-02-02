@@ -2,6 +2,9 @@
   width: 619px;
   background: #E5E5E5;
   margin: 20px;
+  font-family: Roboto;
+  line-height: 25px;
+  border-radius: 29.061px;
 }
 
 .Post .PostImg{
@@ -22,11 +25,6 @@
 
 .Post .PostText p{
   margin-top: -20px;
-}
-
-.Post {
-  font-family: Roboto;
-  line-height: 25px;
 }
 
 .Post p{
