@@ -9,6 +9,7 @@ export class MapContainer extends React.Component {
       showingInfoWindow: false,
       activeMarker: {},
       selectedPlace: {},
+      location: '',
     };
   }
 
@@ -17,6 +18,7 @@ export class MapContainer extends React.Component {
       selectedPlace: props,
       activeMarker: marker,
       showingInfoWindow: true,
+      location: props.position,
     });
 
   onMapClicked = (props) => {
@@ -24,11 +26,15 @@ export class MapContainer extends React.Component {
       this.setState({
         showingInfoWindow: false,
         activeMarker: null,
+        location: '',
       });
     }
   };
 
   geoLocation(context) {
+    if (this.state.location !== '') {
+      return this.state.location;
+    }
     if (this.props.addressGeolocation !== '') {
       return {
         latitude: this.props.addressGeolocation.lat,
@@ -65,7 +71,11 @@ export class MapContainer extends React.Component {
                 onClick={this.onMarkerClick}
                 key={point.updated_at}
                 title={point.address}
-                name={point.name ? point.name + " - " + point.address : point.address}
+                name={
+                  point.name
+                    ? point.name + ' - ' + point.address
+                    : point.address
+                }
                 position={{ lat: point.latitude, lng: point.longitude }}
               />
             );
