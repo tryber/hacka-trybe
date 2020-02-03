@@ -91,3 +91,34 @@ button > * {
   text-decoration: none;
   margin-right: 30px;
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .map-buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .btn-type-group {
+    flex-direction: column;
+  }
+  
+  .btn-type {
+    align-self: flex-start;
+    font-size: 17px;
+    line-height: 28px;    
+    padding: 5px 15px;
+  }
+
+  .btn-type:nth-last-child(2) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .about-us-btn {
+    position: fixed;
+    left: 30px;
+    bottom: 0;
+  }
+}
