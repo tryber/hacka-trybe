@@ -80,6 +80,7 @@ class MapInputs extends React.Component {
   }
 
   componentDidMount() {
+    this.context.generateGeolocation();
     this.requestAPI('donations', true);
     this.requestAPI('shelters', false);
     this.requestAPI('floods', false);

@@ -17,7 +17,7 @@ export class MapContainer extends React.Component {
     };
   }
   
-  componentDidMount() {
+  componentWillMount() {
     window.document.title = 'AjudaBH'; 
   }
 
@@ -78,7 +78,6 @@ export class MapContainer extends React.Component {
   }
 
   render() {
-    console.log(this.props.data);
     const geolocation = this.geoLocation(this.context);
     return (
       <div>
@@ -87,9 +86,6 @@ export class MapContainer extends React.Component {
             lat: geolocation.latitude,
             lng: geolocation.longitude,
           }}
-          // style={{
-
-          // }}
           google={this.props.google}
           zoom={14}
           onClick={this.onMapClicked}
@@ -99,7 +95,6 @@ export class MapContainer extends React.Component {
             ? this.props.data.map((point) => {
                 return (
                   <Marker
-                    // className=''
                     onClick={this.onMarkerClick}
                     key={point.updated_at}
                     title={point.address}
