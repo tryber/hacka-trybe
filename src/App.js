@@ -21,7 +21,9 @@ function App() {
           </Route>
           <Route path="/faq" component={"<component />"} />
           <Route path="/info:id" component={"<component />"} />
-          <Route path="/about-us" component={<SobreNos />} />
+          <Route path="/about-us">
+            <SobreNos />
+          </Route>
         </Switch>
       </Router>
     </Provider>
