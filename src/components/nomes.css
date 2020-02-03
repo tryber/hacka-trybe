@@ -16,8 +16,7 @@ p {
   text-align: center;
   height: 228px;
   width: 228px;
-  outline: 1px solid gray;
-  padding: 5px;
+  color: white;
 }
 
 .trybersImg {
@@ -25,12 +24,4 @@ p {
   height: 167px;
   width: 167px;
   padding: 10px;
-}
-
-.trybe-name {
-  float: left;
-}
-
-.linkedin-img {
-  float: right;
 }
