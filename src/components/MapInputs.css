@@ -4,6 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 15px 30px;
+  pointer-events: none;
 }
 
 .btn-type {
