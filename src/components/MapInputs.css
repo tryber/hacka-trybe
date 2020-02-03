@@ -5,6 +5,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 15px 30px;
+  pointer-events: none;
 }
 
 .btn-type {
@@ -20,6 +21,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+  pointer-events: auto;
 }
 
 .btn-search {
@@ -56,6 +58,7 @@
   align-items: center;
   flex-wrap: wrap;
   margin-right: 20px;
+  pointer-events: auto;
 }
 
 .search-input {
