@@ -1,6 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
+}
+
+.about * {
   overflow-x: hidden;
 }
 
@@ -25,7 +28,7 @@
 }
 
 .logo {
-  color: #FC1055;
+  color: #fc1055;
   font-size: 50px;
   margin-top: 10px;
 }
@@ -48,7 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FC1055;
+  background-color: #fc1055;
 }
 
 .background-1 {
@@ -66,19 +69,19 @@
   flex-direction: column;
 }
 
-.background-3{
+.background-3 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.background-4{
+.background-4 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #FC1055;
+  background-color: #fc1055;
   height: 300px;
   width: 100vw;
 }
@@ -86,12 +89,12 @@
 .hacka-logo {
   font-size: 120px;
   color: white;
-  margin-left: -280px; 
+  margin-left: -280px;
 }
 
 @media (max-width: 600px) {
   .hacka-logo {
-    margin-left: -190px; 
+    margin-left: -190px;
     font-size: 100px;
   }
 }
