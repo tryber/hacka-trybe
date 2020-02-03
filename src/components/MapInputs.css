@@ -2,6 +2,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 15px 30px;
   pointer-events: none;
@@ -12,7 +13,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  color: #bdbdbd;
+  color: #959595;
   background-color: #fff;
   padding: 10px 30px;
   border: none;
@@ -31,7 +32,7 @@
   margin-bottom: 20px;
 }
 
-.btn-type:not(:first-child):not(:last-child) {
+.btn-type:nth-last-child(2) {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -65,12 +66,16 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 44px;
-  color: #bdbdbd;
+  color: #959595;
   background-color: #fff;
   padding: 5px 10px;
   border: none;
   border-radius: 25px;
   margin-bottom: 20px;
+}
+
+.search-input::placeholder {
+  color: #959595;
 }
 
 .icon {
@@ -83,4 +88,48 @@
 
 button > * {
   pointer-events: none;
+}
+
+.map-buttons {
+  display: flex;
+}
+
+.about-us-btn {
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+
+@media (max-width: 1200px) {
+  .inputs-group {
+    padding-left: 10px;
+  }
+
+  .map-buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .btn-type-group {
+    flex-direction: column;
+  }
+  
+  .btn-type {
+    align-self: flex-start;
+    font-size: 17px;
+    line-height: 28px;    
+    padding: 5px 15px;
+  }
+
+  .btn-type:nth-last-child(2) {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .about-us-btn {
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+  }
 }
