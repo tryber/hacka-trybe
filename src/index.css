@@ -9,9 +9,3 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-@media (max-width: 600px) {
-  .gm-style-iw-a button {
-    opacity: 0;
-  }
-}
