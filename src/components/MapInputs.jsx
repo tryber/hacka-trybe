@@ -100,7 +100,7 @@ class MapInputs extends React.Component {
           className="search-input"
           onKeyPress={(e) => this.doSearch(e)}
           type="text"
-          placeholder="Ex: rua andaluzita 131 Belo Horizonte MG"
+          placeholder="Ex: Rua Andaluzita, 131 Belo Horizonte MG"
         />
       </div>
     );
