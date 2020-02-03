@@ -13,7 +13,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
-  color: #bdbdbd;
+  color: #959595;
   background-color: #fff;
   padding: 10px 30px;
   border: none;
@@ -66,12 +66,16 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 44px;
-  color: #bdbdbd;
+  color: #959595;
   background-color: #fff;
   padding: 5px 10px;
   border: none;
   border-radius: 25px;
   margin-bottom: 20px;
+}
+
+.search-input::placeholder {
+  color: #959595;
 }
 
 .icon {
@@ -96,7 +100,11 @@ button > * {
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
+  .inputs-group {
+    padding-left: 10px;
+  }
+
   .map-buttons {
     display: flex;
     flex-direction: column;
@@ -121,7 +129,7 @@ button > * {
 
   .about-us-btn {
     position: fixed;
-    left: 30px;
+    left: 10px;
     bottom: 0;
   }
 }
