@@ -115,7 +115,6 @@ export class MapContainer extends React.Component {
               })
             : null}
           <InfoWindow
-            // onCloseClick={this.closeInfoWindow}
             marker={this.state.activeMarker}
             visible={this.state.showingInfoWindow}
           >
