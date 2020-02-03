@@ -1,0 +1,27 @@
+p {
+  margin: 20px 100px;
+}
+
+.trybers-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1165px;
+}
+
+.tryber {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 228px;
+  width: 228px;
+  color: white;
+}
+
+.trybersImg {
+  border-radius: 100%;
+  height: 167px;
+  width: 167px;
+  padding: 10px;
+}

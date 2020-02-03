@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.about * {
+  overflow-x: hidden;
+}
+
+.about-title {
+  color: white;
+  font-size: 30px;
+}
+
+.about-p {
+  color: white;
+}
+
+.about > .background-header {
+  height: 430px;
+  width: 100vw;
+  background-color: white;
+  background-image: url(https://i.ibb.co/6RVbg6F/bg-2.png);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: #fc1055;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.close-about {
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  right: 10px;
+  top: 10px;
+  border-radius: 100%;
+  background-image: url(https://svgur.com/i/Hii.svg);
+  background-size: cover;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.background-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc1055;
+}
+
+.background-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -20px;
+}
+
+.background-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fc1055;
+  height: 300px;
+  width: 100vw;
+}
+
+.hacka-logo {
+  font-size: 120px;
+  color: white;
+  margin-left: -280px;
+}
+
+@media (max-width: 600px) {
+  .hacka-logo {
+    margin-left: -190px;
+    font-size: 100px;
+  }
+}
+
+.tryber {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trybers-list {
+  display: flex;
+  flex-wrap: wrap;
+}
