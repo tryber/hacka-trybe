@@ -12,7 +12,7 @@ const participantes = {
     'https://ca.slack-edge.com/TMDDFEPFU-UN6TLDEA0-ge12d1f9423f-512',
   ],
   'Diego Augusto': [
-    'https://www.linkedin.com/in/diegoaugusto/',
+    'https://www.linkedin.com/in/diegoaugust/',
     'https://media-exp1.licdn.com/dms/image/C4E03AQGhovf02kT3RA/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=3wSUlCAWllU3gwWmFp9QOD7WThG119YVxlZoIZgogxo',
   ],
   'Douglas Henrique': [
