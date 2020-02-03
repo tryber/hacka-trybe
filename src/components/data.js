@@ -55,6 +55,7 @@ const participantes = {
     'https://www.linkedin.com/in/mateustalles/',
     'https://media-exp1.licdn.com/dms/image/C4E03AQHWvDYwqkPbJg/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=pzH5adSF7BmdZX_D0viAnwmcqzmJP_NOmwnlTBuI0Uk',
   ],
+  'Miguel Miguelito': ['', 'https://i.ibb.co/JjbRSvL/FOTO.jpg'],
   'Pedro Henrique Tófani': [
     'https://www.linkedin.com/in/pedro-henrique-t%C3%B3fani-ferreira-110954109/',
     'https://media-exp1.licdn.com/dms/image/C5603AQFg4MNW6WWYVA/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=Iqefrf3qbYzR9n5BJEXQ3cxOakvQjrzdWdFNCDKDo0c',
@@ -68,7 +69,5 @@ const participantes = {
     'https://media-exp1.licdn.com/dms/image/C4E03AQGwtKOnzfI3Ww/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=Em0kEVq13TPAofXkXu43mZH7nC5nyM99VeMbTEU_eu4',
   ],
 };
-
-// 'Miguel Miranda': ['', 'https://ca.slack-edge.com/TMDDFEPFU-UPJTJA2HG-e9a292fa3f29-512'],
 
 export default participantes;
