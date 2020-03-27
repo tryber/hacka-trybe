@@ -1,4 +1,8 @@
 const participantes = {
+  'Ana Quintão': [
+    'https://www.linkedin.com/in/anacmquintao/',
+    'https://media-exp1.licdn.com/dms/image/C4E03AQGt_0jjV4vM0g/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=bbxIn4LpFv18bwjxD1tR7GyD9a1IC8LUliiPIodU0ys',
+  ],
   'Andrey Kenji Tsuzuki': [
     'https://www.linkedin.com/in/andrey-tsuzuki/',
     'https://ca.slack-edge.com/TMDDFEPFU-UPXN7AP96-e60d3769a8d7-512',
@@ -11,9 +15,9 @@ const participantes = {
     'https://www.linkedin.com/in/conrado-medeiros/',
     'https://ca.slack-edge.com/TMDDFEPFU-UN6TLDEA0-ge12d1f9423f-512',
   ],
-  'Diego Augusto': [
+  'Diego Augusto Ferreira': [
     'https://www.linkedin.com/in/diegoaugust/',
-    'https://media-exp1.licdn.com/dms/image/C4E03AQGhovf02kT3RA/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=3wSUlCAWllU3gwWmFp9QOD7WThG119YVxlZoIZgogxo',
+    'https://media-exp1.licdn.com/dms/image/C4E03AQGDAJttncrnDw/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=8ssCCVy3PDUwq023yR7kavquTLyVZA8rNLTKi_QM5U0',
   ],
   'Douglas Henrique': [
     'https://www.linkedin.com/in/douglas-he/',
@@ -21,7 +25,7 @@ const participantes = {
   ],
   'Douglas "Funny" Eduardo': [
     'https://www.linkedin.com/in/dougfunny/',
-    'https://media-exp1.licdn.com/dms/image/C4E03AQGNTYa259De4Q/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=iBEwjwn0HVbwCYhw6S3d29ycRKbiy6Lw_ES_IHRdiDM',
+    'https://media-exp1.licdn.com/dms/image/C4E03AQHkSPL6Nma1vQ/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=F719JTT2IE82QILrqSRtrrYU3mkueo2OhjUd67Gyve0',
   ],
   'Fernando Luckesi': [
     'https://www.linkedin.com/in/fernando-luckesi-cea%C2%AE-714a93113/',
@@ -50,6 +54,10 @@ const participantes = {
   'Lauro Lyra': [
     'https://www.linkedin.com/in/laurolyra',
     'https://media-exp1.licdn.com/dms/image/C4E03AQEv3kNvRTJgig/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=coJ_jKm2iLeeAw19RMvA96VoNIjslQNwqJZFn6mUc6U',
+  ],
+  'Marcos Paulo Moura': [
+    'https://www.linkedin.com/in/marcosmoura1/',
+    'https://media-exp1.licdn.com/dms/image/C4D03AQExBi5YPlqsJg/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=_WdXznPQ1NpaSuCnDDOLtY-V0KqfwvDQsXH4YOD9hgw',
   ],
   'Mateus Talles Carvalho': [
     'https://www.linkedin.com/in/mateustalles/',
