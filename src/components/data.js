@@ -51,10 +51,6 @@ const participantes = {
     'https://www.linkedin.com/in/laurolyra',
     'https://media-exp1.licdn.com/dms/image/C4E03AQEv3kNvRTJgig/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=coJ_jKm2iLeeAw19RMvA96VoNIjslQNwqJZFn6mUc6U',
   ],
-  'Marcos Paulo Moura': [
-    'https://www.linkedin.com/in/marcosmoura1/',
-    'https://media-exp1.licdn.com/dms/image/C4D03AQExBi5YPlqsJg/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=_WdXznPQ1NpaSuCnDDOLtY-V0KqfwvDQsXH4YOD9hgw',
-  ],
   'Mateus Talles Carvalho': [
     'https://www.linkedin.com/in/mateustalles/',
     'https://media-exp1.licdn.com/dms/image/C4E03AQHWvDYwqkPbJg/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=pzH5adSF7BmdZX_D0viAnwmcqzmJP_NOmwnlTBuI0Uk',
