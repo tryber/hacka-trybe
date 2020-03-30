@@ -1,8 +1,4 @@
 const participantes = {
-  'Ana Quintão': [
-    'https://www.linkedin.com/in/anacmquintao/',
-    'https://media-exp1.licdn.com/dms/image/C4E03AQGt_0jjV4vM0g/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=bbxIn4LpFv18bwjxD1tR7GyD9a1IC8LUliiPIodU0ys',
-  ],
   'Andrey Kenji Tsuzuki': [
     'https://www.linkedin.com/in/andrey-tsuzuki/',
     'https://ca.slack-edge.com/TMDDFEPFU-UPXN7AP96-e60d3769a8d7-512',
