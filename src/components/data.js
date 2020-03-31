@@ -1,8 +1,4 @@
 const participantes = {
-  'Ana Quintão': [
-    'https://www.linkedin.com/in/anacmquintao/',
-    'https://media-exp1.licdn.com/dms/image/C4E03AQGt_0jjV4vM0g/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=bbxIn4LpFv18bwjxD1tR7GyD9a1IC8LUliiPIodU0ys',
-  ],
   'Andrey Kenji Tsuzuki': [
     'https://www.linkedin.com/in/andrey-tsuzuki/',
     'https://ca.slack-edge.com/TMDDFEPFU-UPXN7AP96-e60d3769a8d7-512',
@@ -54,10 +50,6 @@ const participantes = {
   'Lauro Lyra': [
     'https://www.linkedin.com/in/laurolyra',
     'https://media-exp1.licdn.com/dms/image/C4E03AQEv3kNvRTJgig/profile-displayphoto-shrink_800_800/0?e=1586390400&v=beta&t=coJ_jKm2iLeeAw19RMvA96VoNIjslQNwqJZFn6mUc6U',
-  ],
-  'Marcos Paulo Moura': [
-    'https://www.linkedin.com/in/marcosmoura1/',
-    'https://media-exp1.licdn.com/dms/image/C4D03AQExBi5YPlqsJg/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=_WdXznPQ1NpaSuCnDDOLtY-V0KqfwvDQsXH4YOD9hgw',
   ],
   'Mateus Talles Carvalho': [
     'https://www.linkedin.com/in/mateustalles/',
